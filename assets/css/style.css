@@ -11,6 +11,9 @@ body {
   background-color: #DAD7CD;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 /*--------------------------------------------hover*/
 
