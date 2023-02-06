@@ -70,7 +70,7 @@ header {
   color: #000;
 }
 
-/*--------------------------------------------hero img*/
+/*--------------------------------------------hero imgs*/
 
 .hero-img-container {
   width: 100%;
@@ -87,6 +87,15 @@ header {
 
 }
 
+#hero-img-food{
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/hero-img-food.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
 /*--------------------------------------------Welcome header/text*/
 
 
@@ -100,9 +109,6 @@ header {
   padding: 15px;
   border-radius: 70px;
   margin: 0 auto;
-  
-
-
 }
 
 .welcome-header h1 {
@@ -127,4 +133,28 @@ header {
   text-align: center;
 }
 
+#award-logo{
+
+  margin-bottom: 200px;
+}
+
+/*--------------------------------------------food/Drink section*/
+
+#food-drink-header{
+height: fit-content;
+max-width: 400px;
+margin: 0 auto;
+position:relative;
+top: 230px;
+background-color: rgba(217, 217, 217, 0.5);
+border-radius: 70px;
+
+}
+
+#food-drink-header h2{
+
+font-size: 3em;
+text-align: center;
+text-transform: uppercase;
+}
 /*--------------------------------------------flex containers*/
