@@ -199,6 +199,27 @@ header {
   background-position: top;
 }
 
+.menu-food-image {
+  width: 50%;
+  min-width: 300px;
+  height: 300px;
+  background-image: url(../img/food-menu-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.menu-sunday-image {
+  width: 50%;
+  min-width: 300px;
+  height: 300px;
+  background-image: url(../img/sunday-menu-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
 .menu-text-box {
   width: 50%;
   min-width: 300px;
