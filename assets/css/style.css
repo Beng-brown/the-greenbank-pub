@@ -170,6 +170,43 @@ font-size: 3em;
 text-align: center;
 text-transform: uppercase;
 }
+
+.container{
+width:80%;
+max-width:1000px ;
+display: flex;
+margin: 0 auto;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.menu-drink-image{
+  width:50%;
+  min-width: 300px;
+  height: 300px;
+  background-image: url(../img/drink-menu-img.jpg);
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top;
+}
+
+.menu-text-box{
+width:50%;
+min-width: 300px;
+height:300px;
+background-color: #A3B18A;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-size: 1em;
+
+}
+
+.text p{
+  padding: 0 20px 0 20px;
+
+}
 /*--------------------------------------------flex containers*/
 
 /*--------------------------------------------media quries*/
