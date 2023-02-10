@@ -11,7 +11,7 @@ body {
   background-color: #DAD7CD;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -90,7 +90,7 @@ header {
 
 }
 
-#hero-img-food{
+#hero-img-food {
   width: 100%;
   height: 300px;
   background-image: url(../img/hero-img-food.jpg);
@@ -127,7 +127,7 @@ header {
   text-align: center;
   font-style: italic;
   font-weight: 300;
-  
+
 }
 
 .welcome-text {
@@ -138,86 +138,97 @@ header {
   text-align: center;
 }
 
-#award-logo{
+#award-logo {
 
   margin-bottom: 200px;
 
 }
 
-  #award-logo img{
- 
-    width: 60%;
-    max-width: 250px;
+#award-logo img {
 
-  }
+  width: 60%;
+  max-width: 250px;
+
+}
 
 /*--------------------------------------------food/Drink section*/
 
-#food-drink-header{
-height: fit-content;
-max-width: 400px;
-margin: 0 auto;
-position:relative;
-top: 230px;
-background-color: rgba(217, 217, 217, 0.5);
-border-radius: 70px;
+#food-drink-header {
+  height: fit-content;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 230px;
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 70px;
 
 }
 
-#food-drink-header h2{
+#food-drink-header h2 {
 
-font-size: 3em;
-text-align: center;
-text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.container{
-width:80%;
-max-width:1000px ;
-display: flex;
-margin: 0 auto;
-flex-wrap: wrap;
-justify-content: center;
+.menu-container {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.menu-drink-image{
-  width:50%;
+.menu-container-reverse {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.menu-drink-image {
+  width: 50%;
   min-width: 300px;
   height: 300px;
   background-image: url(../img/drink-menu-img.jpg);
   background-repeat: no-repeat;
- background-size: cover;
- background-position: top;
+  background-size: cover;
+  background-position: top;
 }
 
-.menu-text-box{
-width:50%;
-min-width: 300px;
-height:300px;
-background-color: #A3B18A;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-font-size: 1em;
+.menu-text-box {
+  width: 50%;
+  min-width: 300px;
+  height: 300px;
+  background-color: #A3B18A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
 
 }
 
-.text p{
+.menu-text-box p {
   padding: 0 20px 0 20px;
 
 }
+
 /*--------------------------------------------flex containers*/
 
 /*--------------------------------------------media quries*/
 
 @media only screen and (max-width: 400px) {
- 
-  #award-logo img{
- 
+
+  #award-logo img {
+
     width: 100%;
 
   }
+
   .nav-list-item {
 
     padding: 10px;
@@ -225,8 +236,8 @@ font-size: 1em;
     letter-spacing: 0px;
     list-style-type: none;
   }
-  
-  header{
+
+  header {
     padding-bottom: 5px;
   }
 }
