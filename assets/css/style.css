@@ -34,6 +34,12 @@ html {
   transform: scale(1.1);
 }
 
+.menu-drink-image:hover,
+.menu-food-image:hover,
+.menu-sunday-image:hover{
+  transform: scale(1.2);
+
+}
 /*--------------------------------------------header*/
 
 header {
@@ -198,6 +204,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  transition: transform .5s;
+  
 }
 
 .menu-food-image {
@@ -208,6 +216,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  transition: transform .5s;
+
 }
 
 .menu-sunday-image {
@@ -218,6 +228,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  transition: transform .5s;
+
 }
 
 
