@@ -360,11 +360,24 @@ footer{
 .signup-form{
 
   background-color:#A3B18A;
+  width: 90%;
+  min-width: 300px;
+  height: 120px;
 }
 
+.signup-name{
+  display: flex;
+}
+
+.signup-name input{
+
+ width:133px;
+ height: 15px;
+}
 .signup-form label {
 
   visibility: hidden;
+  width: 0;
 }
 /*--------------------------------------------flex containers*/
 
