@@ -306,18 +306,27 @@ footer{
   background-color: #588157;
   margin-top: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .contact-info{
-  padding: 10px;
+  padding: 15px;
+  justify-content: center;
   font-size: 0.8em;
   font-weight: 600;
 }
 
-.socials-icons{
+.socials-icons i{
 
+  text-decoration: none;
+  color: #000;
+  font-size: 2.2em;
+ 
+  padding: 10px;
+  font-weight: 600;
 }
+
 
 /*--------------------------------------------flex containers*/
 
@@ -354,4 +363,12 @@ footer{
   .menu-sunday-image h2 {
     visibility: visible;
   }
+
+  footer{
+    justify-content: center;}
+}
+@media only screen and (max-width: 650px){
+
+footer{
+  justify-content: center;}
 }
