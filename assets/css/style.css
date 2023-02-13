@@ -32,13 +32,20 @@ html {
 .hvr-grow:focus,
 .hvr-grow:active {
   transform: scale(1.1);
+  opacity: 0.2;
 }
 
 .menu-drink-image:hover,
 .menu-food-image:hover,
 .menu-sunday-image:hover{
   transform: scale(1.2);
+}
 
+.menu-drink-image:hover h2,
+.menu-food-image:hover h2,
+.menu-sunday-image:hover h2{
+  visibility: visible;
+  opacity: 1;
 }
 /*--------------------------------------------header*/
 
@@ -197,6 +204,12 @@ header {
 }
 
 .menu-drink-image {
+  /* center code for headings*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
   width: 50%;
   min-width: 300px;
   height: 300px;
@@ -209,6 +222,11 @@ header {
 }
 
 .menu-food-image {
+    /* center code for headings*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
   width: 50%;
   min-width: 300px;
   height: 300px;
@@ -221,6 +239,11 @@ header {
 }
 
 .menu-sunday-image {
+  /* center code for headings*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 50%;
   min-width: 300px;
   height: 300px;
@@ -251,6 +274,22 @@ header {
 
 }
 
+.menu-drink-image h2,
+.menu-food-image h2,
+.menu-sunday-image h2{
+
+  text-align: center;
+  flex-direction: column;
+  background-color: rgba(88, 129, 87, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2em;
+  width: auto;
+  color:#DAD7CD;
+
+  visibility: hidden;
+  transition: transform .5s
+}
 /*--------------------------------------------flex containers*/
 
 /*--------------------------------------------media quries*/
