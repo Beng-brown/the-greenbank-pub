@@ -328,6 +328,29 @@ footer{
 }
 
 
+/*--------------------------------------------sign-up section*/
+
+#sign-up-section{
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.opening-times{
+
+  width:50%;
+  text-align: center;
+}
+
+.loyalty-signup{
+
+  width: 50%;
+  text-align: center;
+
+}
 /*--------------------------------------------flex containers*/
 
 /*--------------------------------------------media quries*/
