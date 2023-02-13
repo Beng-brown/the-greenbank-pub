@@ -332,24 +332,39 @@ footer{
 
 #sign-up-section{
 
-  width: 100%;
+  width: 90%;
+  max-width: 1100;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 
 }
 
 .opening-times{
 
   width:50%;
+  min-width: 300px;
   text-align: center;
 }
 
 .loyalty-signup{
 
   width: 50%;
+  min-width: 300px;
   text-align: center;
 
+}
+
+.signup-form{
+
+  background-color:#A3B18A;
+}
+
+.signup-form label {
+
+  visibility: hidden;
 }
 /*--------------------------------------------flex containers*/
 
