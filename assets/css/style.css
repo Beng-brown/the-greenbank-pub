@@ -31,22 +31,24 @@ html {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  transform: scale(1.1);
-  opacity: 0.2;
+  transform: scale(1.12);
+  opacity: 1;
+  border-bottom: #000 1px solid;
 }
 
 .menu-drink-image:hover,
 .menu-food-image:hover,
-.menu-sunday-image:hover{
+.menu-sunday-image:hover {
   transform: scale(1.2);
 }
 
 .menu-drink-image:hover h2,
 .menu-food-image:hover h2,
-.menu-sunday-image:hover h2{
+.menu-sunday-image:hover h2 {
   visibility: visible;
   opacity: 1;
 }
+
 /*--------------------------------------------header*/
 
 header {
@@ -218,15 +220,15 @@ header {
   background-size: cover;
   background-position: top;
   transition: transform .5s;
-  
+
 }
 
 .menu-food-image {
-    /* center code for headings*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
+  /* center code for headings*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 50%;
   min-width: 300px;
   height: 300px;
@@ -276,7 +278,7 @@ header {
 
 .menu-drink-image h2,
 .menu-food-image h2,
-.menu-sunday-image h2{
+.menu-sunday-image h2 {
 
   text-align: center;
   flex-direction: column;
@@ -285,11 +287,38 @@ header {
   letter-spacing: 2px;
   font-size: 2em;
   width: auto;
-  color:#DAD7CD;
+  color: #DAD7CD;
 
   visibility: hidden;
   transition: transform .5s
 }
+
+.menu-drink-image a,
+.menu-food-image a,
+.menu-sunday-image a {
+
+  text-decoration: none;
+}
+
+/*--------------------------------------------Footer*/
+
+footer{
+  background-color: #588157;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info{
+  padding: 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.socials-icons{
+
+}
+
 /*--------------------------------------------flex containers*/
 
 /*--------------------------------------------media quries*/
@@ -313,15 +342,16 @@ header {
   header {
     padding-bottom: 5px;
   }
+
   .menu-sunday-image,
   .menu-food-image,
   .menu-drink-image {
-   transform: scale(1.2);
-}
+    transform: scale(1.2);
+  }
 
-.menu-drink-image h2,
-.menu-food-image h2,
-.menu-sunday-image h2{
-  visibility: visible;
-}
+  .menu-drink-image h2,
+  .menu-food-image h2,
+  .menu-sunday-image h2 {
+    visibility: visible;
+  }
 }
