@@ -331,13 +331,15 @@ footer{
 /*--------------------------------------------sign-up section*/
 
 #sign-up-section{
-
+  
+  padding-top: 30px;
   width: 90%;
-  max-width: 1100;
-  margin: 0 auto;
+  max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
+  border-top: 20px;
 
 
 }
@@ -350,35 +352,45 @@ footer{
 }
 
 .loyalty-signup{
-
+  
   width: 50%;
   min-width: 300px;
   text-align: center;
-
 }
 
-.signup-form{
+.loyalty-text{
 
+  padding-bottom: 30px;
+
+}
+.signup-form{
+  
+  display: inline-block;
   background-color:#A3B18A;
   width: 90%;
   min-width: 300px;
-  height: 120px;
+  height: 140px;
+  margin: 0 auto;
+  font-size: 1.3em;
+
+  border-radius: 10px;
+
 }
 
-.signup-name{
-  display: flex;
+.signup-form input{
+
+  width: 80%
 }
 
-.signup-name input{
+#signup-submit-button {
 
- width:133px;
- height: 15px;
+  width:20%;
+  background-color: orange;
+  box-shadow: 1px 2px #000;
 }
-.signup-form label {
 
-  visibility: hidden;
-  width: 0;
-}
+
+
 /*--------------------------------------------flex containers*/
 
 /*--------------------------------------------media quries*/

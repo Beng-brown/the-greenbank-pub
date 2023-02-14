@@ -142,7 +142,7 @@
     </div>
 
     <div class="loyalty-signup">
-      <div>
+      <div class="loyaly-text">
         <h3>Loyalty</h3>
         <br>
         <p>
@@ -150,21 +150,19 @@
           Turn points into pounds, enjoy 25% off food every Wednesday, and receive extra rewards throughout the year.
           Sign up form below</p>
       </div>
+      <br>
       <div class="signup-form">
         <form action="https://formdump.codeinstitute.net/" method="post">
-          <div class="signup-name">
-
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" placeholder="First Name">
-          
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" placeholder="Last Name">
-          </div>
-          <label for="email">Email address</label>
-          <input type="email" id="email" name="email_address" placeholder="Email address">
-
-          <input type="submit" value="Sign-up!">
+              
+            <label id="signup-label" for="lname">Name</label>
+            <br>
+            <input class="name" type="text" id="name" name="name">
+          <br>
+          <label id="signup-label" for="email">Email</label>
+          <br>
+          <input type="email" id="email" name="email_address">
+<br>
+          <input id="signup-submit-button" type="submit" value="Sign-up!">
 
         </form>
       </div>
