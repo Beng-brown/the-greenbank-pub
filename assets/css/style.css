@@ -372,19 +372,26 @@ footer{
 
 }
 
+.signup-form{
+display: inline-block;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.signup-submit-button{
+
+}
+
+.signup-form-container{
 
 
+}
 
- 
- 
-
-
-
-
-
-
-
-
+.signup-form-container input{
+  
+  padding:5px;
+  margin:5px;
+}
 .loyalty-signup h3,
 .opening-times h3{
 
