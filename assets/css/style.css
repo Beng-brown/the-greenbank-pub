@@ -371,67 +371,19 @@ footer{
   padding-bottom: 30px;
 
 }
-.signup-form-container{
-  
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color:#A3B18A;
-  width: 70%;
-  min-width: 320px;
-  height: 170px;
-  font-size: 1em;
-  border-radius: 10px;
 
-}
 
-.signup-form{
 
-  display: flex;
-  flex-direction: column;
-}
 
-.signup-form label{
-
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.input-width{
  
-  min-width: 300px;
-  height: 15px;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 0.8em;
  
-}
-
-.form-fname,
-.form-lname,
-.form-email{
-
-  width: 80%;
-}
-
-.form-pnumber{
-  width: 50%;
-}
 
 
 
 
 
 
-#signup-submit-button {
 
-  width:70px;
-  height: 30px;
-  background-color: orange;
-  box-shadow: 1px 2px #000;
-  margin-top: 10px;
-  margin-left: 200px;
-}
 
 .loyalty-signup h3,
 .opening-times h3{
