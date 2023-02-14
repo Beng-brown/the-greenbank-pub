@@ -151,23 +151,27 @@
           Sign up form below</p>
       </div>
       <br>
-      <div class="signup-form">
-        <form action="https://formdump.codeinstitute.net/" method="post">
+      <div class="signup-form-container">
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
 
-          <label id="signup-label" for="lname">Name</label>
-          <br>
-          <input class="name" type="text" id="name" name="name" required>
-          <br>
-          <label id="signup-label" for="email">Email</label>
-          <br>
-          <input type="email" id="email" name="email_address" required>
-          <br>
-          <label id="signup-label" for="phone-number">Mobile Number</label>
-          <br>
-          <input type="tel" id="phone-number" name="phone_number" required>
-          <br>
+          <label  for="fname">First name</label>
+          
+          <input class="form-fname" type="text" id="fname" name="fname" placeholder="first name" required>
 
+          <label for="lname">last name</label>
+          
+          <input class="form-lname" type="text" id="lname" name="lname" placeholder="last name" required>
+         
+          <label for="email">email</label>
+          
+          <input class="form-email" type="email" id="email" name="email_address" placeholder="email" required>
+          
+          <label for="phone-number">phone number</label>
+          
+          <input class="form-pnumber" type="tel" id="phone-number" name="phone_number" placeholder="Phone number" required>
+          
 
+        
           <input id="signup-submit-button" type="submit" value="Sign-up!">
 
         </form>

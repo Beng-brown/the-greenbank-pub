@@ -273,7 +273,7 @@ header {
 
   font-style: italic;
 }
-  font-style: normal;
+  
 .menu-text-box p {
   padding: 0 20px 0 20px;
 
@@ -371,28 +371,66 @@ footer{
   padding-bottom: 30px;
 
 }
-.signup-form{
+.signup-form-container{
   
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background-color:#A3B18A;
-  width: 90%;
-  min-width: 300px;
-  height: 150px;
+  width: 70%;
+  min-width: 320px;
+  height: 170px;
   font-size: 1em;
   border-radius: 10px;
 
 }
 
-.signup-form input{
+.signup-form{
 
-  width: 80%
+  display: flex;
+  flex-direction: column;
 }
+
+.signup-form label{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-width{
+ 
+  min-width: 300px;
+  height: 15px;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 0.8em;
+ 
+}
+
+.form-fname,
+.form-lname,
+.form-email{
+
+  width: 80%;
+}
+
+.form-pnumber{
+  width: 50%;
+}
+
+
+
+
+
 
 #signup-submit-button {
 
-  width:20%;
+  width:70px;
+  height: 30px;
   background-color: orange;
   box-shadow: 1px 2px #000;
+  margin-top: 10px;
+  margin-left: 200px;
 }
 
 .loyalty-signup h3,
@@ -407,7 +445,6 @@ footer{
 
   text-transform: capitalize;
   font-weight: 600;
-  
 }
 
 /*--------------------------------------------flex containers*/
