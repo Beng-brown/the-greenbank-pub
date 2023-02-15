@@ -170,13 +170,14 @@ header {
 /*--------------------------------------------food/Drink section*/
 
 #food-drink-header {
+  color:#DAD7CD ;
   height: fit-content;
   max-width: 400px;
   margin: 0 auto;
   position: relative;
   top: 230px;
-  background-color: rgba(217, 217, 217, 0.5);
-  border-radius: 70px;
+  background-color: rgba(3, 3, 3, 0.3);
+  border-radius: 10px;
 
 }
 
