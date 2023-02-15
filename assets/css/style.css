@@ -386,6 +386,8 @@ header {
   text-decoration: none;
 
   transition: transform .5s;
+
+  box-shadow: 5px 10px #888888;
 }
 
 .make-a-booking a{
@@ -423,6 +425,7 @@ color: black;
   min-width: 300px;
   text-align: center;
   align-items: center;
+  
 }
 
 .loyalty-text{
@@ -437,6 +440,7 @@ color: black;
 display:block;
 flex-direction: column;
 flex-wrap: nowrap;
+box-shadow: 5px 10px #888888;
 }
 
 .signup-form input{
