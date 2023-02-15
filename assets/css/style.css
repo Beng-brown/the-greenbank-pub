@@ -116,6 +116,15 @@ header {
 
 }
 
+#hero-img-booking{
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/hero-booking.jpg);
+  background-size:cover;
+  background-position: top ;
+  margin-top:10px;
+}
+
 /*--------------------------------------------Welcome header/text*/
 
 
