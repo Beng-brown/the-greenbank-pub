@@ -49,6 +49,9 @@ html {
   opacity: 1;
 }
 
+.make-a-booking:hover {
+  transform: scale(1.2);
+}
 /*--------------------------------------------header*/
 
 header {
@@ -358,6 +361,37 @@ header {
 
 /*--------------------------------------------sign-up section*/
 
+.make-a-booking-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.make-a-booking{
+ 
+  border: rgba(163, 177, 138, 70%) solid 1px;
+  background-color: rgba(163, 177, 138, 70%);
+  height: fit-content;
+  max-width: 250px;
+  padding: 15px;
+  border-radius: 5px;
+
+  text-align: center;
+
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-decoration: none;
+
+  transition: transform .5s;
+}
+
+.make-a-booking a{
+text-decoration: none;
+color: black;
+}
 #sign-up-section{
   
   padding-top: 30px;
@@ -394,7 +428,7 @@ header {
 .loyalty-text{
 
   padding-bottom: 30px;
-
+  
 }
 
 
