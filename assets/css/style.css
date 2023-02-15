@@ -347,6 +347,7 @@ header {
  
   padding: 10px;
   font-weight: 600;
+  
 }
 
 #footer-booking{
@@ -557,7 +558,10 @@ padding: 3px;
 footer{
   justify-content: center;}
 
-  
+  #footer-booking,
+  #footer-home{
+  justify-content: center;
+  }
 
   
 
