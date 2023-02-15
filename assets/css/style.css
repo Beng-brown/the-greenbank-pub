@@ -52,6 +52,11 @@ html {
 .make-a-booking:hover {
   transform: scale(1.2);
 }
+
+#signup-submit-button:hover{
+  
+  background-color: #588157;
+}
 /*--------------------------------------------header*/
 
 header {
@@ -451,6 +456,7 @@ box-shadow: 5px 10px #888888;
 #signup-submit-button{
 
   font-weight: bolder;
+  transition: transform .5s;
 }
 
 .signup-form-container{
