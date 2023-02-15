@@ -121,7 +121,7 @@ header {
   height: 400px;
   background-image: url(../img/hero-booking.jpg);
   background-size:cover;
-  background-position: top ;
+  background-position: center ;
   margin-top:10px;
 }
 
@@ -427,7 +427,19 @@ padding: 3px;
   font-weight: 600;
 }
 
-/*--------------------------------------------flex containers*/
+/*--------------------------------------------Booking page welcome*/
+
+.booking-header {
+  border: rgba(163, 177, 138, 70%) solid 1px;
+  background-color: rgba(163, 177, 138, 70%);
+  height: fit-content;
+  max-width: 250px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4em;
+}
 
 /*--------------------------------------------media quries*/
 
