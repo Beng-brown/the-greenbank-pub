@@ -460,6 +460,12 @@ box-shadow: 5px 10px #888888;
   transition: transform .5s;
 }
 
+.signup-form-names,
+.signup-form-email-phone{
+  display: flex;
+  flex-direction: row;
+}
+
 .signup-form-container{
 background-color: #A3B18A;
 width: fit-content;
@@ -546,13 +552,8 @@ padding: 3px;
     justify-content: center;}
 }
 
-@media only screen and (max-width: 880px)
-{
-  .signup-form-container{
-  width: 200px;
-  }
 
-}
+
 @media only screen and (max-width: 650px){
 
 footer{
