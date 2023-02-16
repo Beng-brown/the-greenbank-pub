@@ -550,6 +550,8 @@ header {
 
 textarea {
 border-radius: 10px;
+padding:4px;
+font-family: "Inter" sans-serif;
 }
 
 #booking-submit-button {
@@ -570,6 +572,12 @@ border-radius: 10px;
  
   padding-bottom: 5px;
 }
+
+.booking-form-time_date{
+
+  font-family: "Inter" sans-serif;
+}
+
 
 
 /*--------------------------------------------media quries*/
