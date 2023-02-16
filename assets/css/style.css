@@ -53,10 +53,12 @@ html {
   transform: scale(1.2);
 }
 
-#signup-submit-button:hover{
-  
+#signup-submit-button:hover,
+#booking-submit-button:hover {
+
   background-color: #588157;
 }
+
 /*--------------------------------------------header*/
 
 header {
@@ -118,19 +120,19 @@ header {
   width: 100%;
   height: 400px;
   background-image: url(../img/hero-img-food.jpg);
-  background-size:cover;
+  background-size: cover;
   background-position: center;
 
 
 }
 
-#hero-img-booking{
+#hero-img-booking {
   width: 100%;
   height: 400px;
   background-image: url(../img/hero-booking.jpg);
-  background-size:cover;
-  background-position: center ;
-  margin-top:10px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
 }
 
 /*--------------------------------------------Welcome header/text*/
@@ -187,7 +189,7 @@ header {
 /*--------------------------------------------food/Drink section*/
 
 #food-drink-header {
-  color:#DAD7CD ;
+  color: #DAD7CD;
   height: fit-content;
   max-width: 400px;
   margin: 0 auto;
@@ -287,11 +289,11 @@ header {
   font-size: 1em;
 }
 
-.menu-text-box p{
+.menu-text-box p {
 
   font-style: italic;
 }
-  
+
 .menu-text-box p {
   padding: 0 20px 0 20px;
 
@@ -323,7 +325,7 @@ header {
 
 /*--------------------------------------------Footer*/
 
-#footer-home{
+#footer-home {
   background-color: #588157;
   margin-top: 30px;
   display: flex;
@@ -332,25 +334,25 @@ header {
   justify-content: space-between;
 }
 
-.contact-info{
+.contact-info {
   padding: 15px;
   justify-content: center;
   font-size: 0.8em;
   font-weight: 600;
 }
 
-.socials-icons i{
+.socials-icons i {
 
   text-decoration: none;
   color: #000;
   font-size: 2.2em;
- 
+
   padding: 10px;
   font-weight: 600;
-  
+
 }
 
-#footer-booking{
+#footer-booking {
   background-color: #588157;
   display: flex;
   flex-direction: row;
@@ -358,7 +360,7 @@ header {
   justify-content: space-between;
 }
 
-.google-maps iframe{
+.google-maps iframe {
 
   height: 150px;
   width: 100%;
@@ -367,16 +369,17 @@ header {
 
 /*--------------------------------------------sign-up section*/
 
-.make-a-booking-container{
+.make-a-booking-container {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 30px;
+  border-radius: 10px;
 }
 
-.make-a-booking{
- 
+.make-a-booking {
+
   border: rgba(163, 177, 138, 70%) solid 1px;
   background-color: rgba(163, 177, 138, 70%);
   height: fit-content;
@@ -394,14 +397,16 @@ header {
   transition: transform .5s;
 
   box-shadow: 5px 10px #888888;
+  border-radius: 10px;
 }
 
-.make-a-booking a{
-text-decoration: none;
-color: black;
+.make-a-booking a {
+  text-decoration: none;
+  color: black;
 }
-#sign-up-section{
-  
+
+#sign-up-section {
+
   padding-top: 30px;
   width: 90%;
   max-width: 1100px;
@@ -415,79 +420,80 @@ color: black;
 }
 
 
-.opening-times{
+.opening-times {
   display: flex;
   flex-direction: column;
-  width:50%;
+  width: 50%;
   min-width: 300px;
   text-align: center;
   align-items: center;
 }
 
-.loyalty-signup{
+.loyalty-signup {
   display: flex;
   flex-direction: column;
-  width:50%;
+  width: 50%;
   min-width: 300px;
   text-align: center;
   align-items: center;
-  
+
 }
 
-.loyalty-text{
+.loyalty-text {
 
   padding-bottom: 30px;
-  
+
 }
 
 
 
-.signup-form{
-display:block;
-flex-direction: column;
-flex-wrap: nowrap;
-box-shadow: 5px 10px #888888;
+.signup-form {
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-shadow: 5px 10px #888888;
 }
 
-.signup-form input{
+.signup-form input {
 
   text-transform: capitalize;
 }
 
-#signup-submit-button{
+#signup-submit-button {
 
   font-weight: bolder;
   transition: transform .5s;
 }
 
 .signup-form-names,
-.signup-form-email-phone{
+.signup-form-email-phone {
   display: flex;
   flex-direction: row;
 }
 
-.signup-form-container{
-background-color: #A3B18A;
-width: fit-content;
-border-radius: 10px;
-padding: 3px;
+.signup-form-container {
+  background-color: #A3B18A;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 3px;
 
 }
 
-.signup-form-container input{
-  
-  padding:5px;
-  margin:5px;
+.signup-form-container input {
+
+  padding: 5px;
+  margin: 5px;
 }
+
 .loyalty-signup h3,
-.opening-times h3{
+.opening-times h3 {
 
   align-items: center;
   text-transform: capitalize;
   font-weight: bold;
 }
 
-.opening-times ul{
+.opening-times ul {
 
   text-transform: capitalize;
   font-weight: 600;
@@ -514,6 +520,58 @@ padding: 3px;
   max-width: 700px;
   text-align: center;
 }
+
+/*--------------------------------------------booking page form*/
+
+.booking-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.booking-form {
+
+  background-color: #A3B18A;
+  padding:3px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  box-shadow: 5px 10px #888888;
+}
+
+.booking-form-names {
+  display: flex;
+  flex-direction: row;
+}
+
+.booking-form-phone-email {
+  display: flex;
+  flex-direction: row;
+}
+
+textarea {
+border-radius: 10px;
+}
+
+#booking-submit-button {
+  width: 80%;
+  font-weight: bolder;
+  transition: transform .5s;
+}
+
+.booking-form input{
+
+  padding: 5px;
+  margin: 5px;
+  border-radius:10px ;
+  text-transform: capitalize;
+}
+
+#booking-form-radio{
+ 
+  padding-bottom: 5px;
+}
+
+
 /*--------------------------------------------media quries*/
 
 @media only screen and (max-width: 400px) {
@@ -548,22 +606,24 @@ padding: 3px;
     visibility: visible;
   }
 
-  footer{
-    justify-content: center;}
+  footer {
+    justify-content: center;
+  }
 }
 
 
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 650px) {
 
-footer{
-  justify-content: center;}
-
-  #footer-booking,
-  #footer-home{
-  justify-content: center;
+  footer {
+    justify-content: center;
   }
 
-  
+  #footer-booking,
+  #footer-home {
+    justify-content: center;
+  }
+
+
 
 }
