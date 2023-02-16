@@ -414,7 +414,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  border-top: 20px;
+  margin-top: 30px;
 
 
 }
@@ -427,6 +427,7 @@ header {
   min-width: 300px;
   text-align: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .loyalty-signup {
@@ -436,6 +437,7 @@ header {
   min-width: 300px;
   text-align: center;
   align-items: center;
+ 
 
 }
 
