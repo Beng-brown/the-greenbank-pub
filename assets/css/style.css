@@ -177,7 +177,7 @@ header {
 }
 
 .welcome-text {
-
+  padding-top: 30px;
   margin: 0 auto;
   width: 66%;
   max-width: 700px;
@@ -187,6 +187,7 @@ header {
 #award-logo {
 
   margin-bottom: 70px;
+  margin-top: 70px;
   text-align: center;
 
 }
@@ -395,7 +396,7 @@ header {
 
 .make-a-booking {
 
-
+  margin-top: 60px;
   height: fit-content;
   max-width: 250px;
   padding: 15px;
@@ -421,7 +422,7 @@ header {
 
 #sign-up-section {
 
-  padding-top: 30px;
+  padding-top: 60px;
   width: 90%;
   max-width: 1100px;
   display: flex;
@@ -439,9 +440,22 @@ header {
   flex-direction: column;
   width: 50%;
   min-width: 300px;
-  text-align: center;
+  text-align: left;
   align-items: center;
   margin-bottom: 20px;
+
+}
+
+.opening-times h4  {
+
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.opening-times li {
+
+  list-style-type: none;
 }
 
 .loyalty-signup {
@@ -453,15 +467,8 @@ header {
   align-items: center;
 
 
-}
-
-.loyalty-text {
-
-  padding-bottom: 30px;
 
 }
-
-
 
 .signup-form {
   display: block;
@@ -478,6 +485,7 @@ header {
 #signup-submit-button {
 
   font-weight: bolder;
+  border-radius: 5px;
   transition: transform .5s;
 }
 
@@ -509,11 +517,6 @@ header {
   font-weight: bold;
 }
 
-.opening-times ul {
-
-  text-transform: capitalize;
-  font-weight: 600;
-}
 
 /*--------------------------------------------Booking page welcome*/
 
@@ -542,6 +545,7 @@ header {
 .booking-form-container {
   display: flex;
   justify-content: center;
+
 }
 
 .booking-form {
@@ -598,15 +602,7 @@ textarea {
   font-family: 'Inter', sans-serif;
 }
 
-/*--------------------------------------------gallery*/
 
-.gallery-container img {
-  height: 100px;
-  width: 100px;
-  
-
-
-}
 
 /*--------------------------------------------media quries*/
 
