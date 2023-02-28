@@ -344,6 +344,8 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .contact-info {
@@ -369,6 +371,8 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .google-maps iframe {
@@ -529,7 +533,7 @@ header {
 
   margin: 0 auto;
   width: 66%;
-  max-width: 700px;
+  max-width: 1500px;
   text-align: center;
 }
 
@@ -637,15 +641,17 @@ padding:4px;
 
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 680px) {
 
   footer {
     justify-content: center;
+    
   }
 
   #footer-booking,
   #footer-home {
     justify-content: center;
+   
   }
 
 
