@@ -59,11 +59,21 @@ html {
   background-color: #588157;
 }
 
+/*--------------------------------------------veriables*/
+
+.--main-bg-green{
+  background-color: #588157;
+}
+
+.--bg-color-lightgreen{
+  background-color: rgba(163, 177, 138, 100%);
+}
+
 /*--------------------------------------------header*/
 
 header {
 
-  background-color: #588157;
+  
   height: 200px;
 }
 
@@ -135,14 +145,15 @@ header {
   margin-top: 10px;
 }
 
+
+  
 /*--------------------------------------------Welcome header/text*/
 
 
 
 
 .welcome-header {
-  border: rgba(163, 177, 138, 70%) solid 1px;
-  background-color: rgba(163, 177, 138, 70%);
+
   height: fit-content;
   max-width: 700px;
   padding: 15px;
@@ -170,12 +181,13 @@ header {
   margin: 0 auto;
   width: 66%;
   max-width: 700px;
-  text-align: center;
+  text-align: justify;
 }
 
 #award-logo {
 
   margin-bottom: 70px;
+  text-align: center;
 
 }
 
@@ -292,6 +304,7 @@ header {
 .menu-text-box p {
 
   font-style: italic;
+  text-align: justify;
 }
 
 .menu-text-box p {
@@ -326,7 +339,6 @@ header {
 /*--------------------------------------------Footer*/
 
 #footer-home {
-  background-color: #588157;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
@@ -353,7 +365,6 @@ header {
 }
 
 #footer-booking {
-  background-color: #588157;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -380,8 +391,7 @@ header {
 
 .make-a-booking {
 
-  border: rgba(163, 177, 138, 70%) solid 1px;
-  background-color: rgba(163, 177, 138, 70%);
+ 
   height: fit-content;
   max-width: 250px;
   padding: 15px;
@@ -504,8 +514,7 @@ header {
 /*--------------------------------------------Booking page welcome*/
 
 .booking-header {
-  border: rgba(163, 177, 138, 70%) solid 1px;
-  background-color: rgba(163, 177, 138, 70%);
+ 
   height: fit-content;
   max-width: 250px;
   padding: 15px;
@@ -514,6 +523,7 @@ header {
   text-align: center;
   font-size: 1.4em;
 }
+
 
 .booking-text {
 
@@ -532,7 +542,7 @@ header {
 
 .booking-form {
 
-  background-color: #A3B18A;
+ 
   padding:3px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -553,7 +563,6 @@ header {
 textarea {
 border-radius: 10px;
 padding:4px;
-font-family: "Inter" sans-serif;
 }
 
 #booking-submit-button {
