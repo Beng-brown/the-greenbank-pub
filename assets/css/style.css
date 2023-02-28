@@ -180,8 +180,11 @@ header {
   padding-top: 30px;
   margin: 0 auto;
   width: 66%;
-  max-width: 700px;
+  max-width: 1200px;
   text-align: justify;
+
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 #award-logo {
@@ -430,7 +433,8 @@ header {
   justify-content: center;
   margin: 0 auto;
   margin-top: 30px;
-
+  font-size: 1.2em;
+  font-weight: 400;
 
 }
 
@@ -527,6 +531,7 @@ header {
   padding: 15px;
   border-radius: 5px;
   margin: 0 auto;
+  
   text-align: center;
   font-size: 1.4em;
 }
@@ -537,7 +542,8 @@ header {
   margin: 0 auto;
   width: 66%;
   max-width: 1500px;
-  text-align: center;
+  text-align: justify;
+  font-size: 1.4em;
 }
 
 /*--------------------------------------------booking page form*/
@@ -545,7 +551,11 @@ header {
 .booking-form-container {
   display: flex;
   justify-content: center;
-
+  
+  text-align: center;
+  font-size: .8em;
+ 
+  
 }
 
 .booking-form {
@@ -658,6 +668,9 @@ textarea {
 
   }
 
+.loyalty-signup{
 
+  margin-top: 30px;
+}
 
 }
