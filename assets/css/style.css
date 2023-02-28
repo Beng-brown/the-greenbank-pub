@@ -575,9 +575,14 @@ font-family: "Inter" sans-serif;
   padding-bottom: 5px;
 }
 
-.booking-form-time_date{
+.booking-form-time_date input{
 
-  font-family: "Inter" sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.booking-textarea textarea{
+
+  font-family: 'Inter', sans-serif;
 }
 
 
