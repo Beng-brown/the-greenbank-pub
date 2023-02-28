@@ -61,11 +61,11 @@ html {
 
 /*--------------------------------------------veriables*/
 
-.--main-bg-green{
+.--main-bg-green {
   background-color: #588157;
 }
 
-.--bg-color-lightgreen{
+.--bg-color-lightgreen {
   background-color: rgba(163, 177, 138, 100%);
 }
 
@@ -73,7 +73,7 @@ html {
 
 header {
 
-  
+
   height: 200px;
 }
 
@@ -146,7 +146,7 @@ header {
 }
 
 
-  
+
 /*--------------------------------------------Welcome header/text*/
 
 
@@ -395,7 +395,7 @@ header {
 
 .make-a-booking {
 
- 
+
   height: fit-content;
   max-width: 250px;
   padding: 15px;
@@ -451,7 +451,7 @@ header {
   min-width: 300px;
   text-align: center;
   align-items: center;
- 
+
 
 }
 
@@ -518,7 +518,7 @@ header {
 /*--------------------------------------------Booking page welcome*/
 
 .booking-header {
- 
+
   height: fit-content;
   max-width: 250px;
   padding: 15px;
@@ -546,8 +546,8 @@ header {
 
 .booking-form {
 
- 
-  padding:3px;
+
+  padding: 3px;
   border-radius: 10px;
   margin-bottom: 30px;
   margin-top: 20px;
@@ -565,8 +565,8 @@ header {
 }
 
 textarea {
-border-radius: 10px;
-padding:4px;
+  border-radius: 10px;
+  padding: 4px;
 }
 
 #booking-submit-button {
@@ -575,30 +575,38 @@ padding:4px;
   transition: transform .5s;
 }
 
-.booking-form input{
+.booking-form input {
 
   padding: 5px;
   margin: 5px;
-  border-radius:10px ;
+  border-radius: 10px;
   text-transform: capitalize;
 }
 
-#booking-form-radio{
- 
+#booking-form-radio {
+
   padding-bottom: 5px;
 }
 
-.booking-form-time_date input{
+.booking-form-time_date input {
 
   font-family: 'Inter', sans-serif;
 }
 
-.booking-textarea textarea{
+.booking-textarea textarea {
 
   font-family: 'Inter', sans-serif;
 }
 
+/*--------------------------------------------gallery*/
 
+.gallery-container img {
+  height: 100px;
+  width: 100px;
+  
+
+
+}
 
 /*--------------------------------------------media quries*/
 
@@ -645,13 +653,13 @@ padding:4px;
 
   footer {
     justify-content: center;
-    
+
   }
 
   #footer-booking,
   #footer-home {
     justify-content: center;
-   
+
   }
 
 
