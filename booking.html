@@ -31,10 +31,10 @@
       </ul>
     </nav>
   </header>
-  <section class="hero-img-container">
+  <div class="hero-img-container">
     <div id="hero-img-booking">
     </div>
-  </section>
+  </div>
   <section id="booking-welcome-section">
     <div class="booking-header --bg-color-lightgreen">
 
@@ -48,57 +48,57 @@
         views over the harbour, while downstairs our main bar space is ideal for a quiet pint and a bite to eat.
       </p>
       <br>
+    </div>
+    </section>
+    <div class="booking-form-container">
+      <form class="booking-form --bg-color-lightgreen" action="https://formdump.codeinstitute.net/" method="post">
+        <div class="booking-form-names">
+          <label for="fname"></label>
+          <input class="form-fname" type="text" id="fname" name="fname" placeholder="first name" required>
 
-      <div class="booking-form-container">
-        <form class="booking-form --bg-color-lightgreen" action="https://formdump.codeinstitute.net/" method="post">
-          <div class="booking-form-names">
-            <label for="fname"></label>
-            <input class="form-fname" type="text" id="fname" name="fname" placeholder="first name" required>
+          <label for="lname"></label>
+          <input class="form-lname" type="text" id="lname" name="lname" placeholder="last name" required>
+        </div>
+        <div class="booking-form-phone-email">
+          <label for="phone-number"></label>
+          <input class="form-pnumber" type="tel" id="phone-number" name="phone_number" placeholder="Phone number"
+            required>
+          <label for="email"></label>
+          <input class="form-email" type="email" id="email" name="email_address" placeholder="email" required>
+        </div>
+        <div id="booking-form-radio">
+          <label for="restaurant">Restaurant</label>
+          <input type="radio" id="restaurant" name="booking_type" value="restaurant">
+          <label for="function-room">Function Room</label>
+          <input type="radio" id="function-room" name="booking_type" value="function-room">
+        </div>
+        <div class="booking-form-time_date">
+          <input type="date" id="booking-date" name="booking_date">
+          <input type="time" id="booking-time" name="booking_time">
+        </div>
+        <div class="booking-textarea">
+          <textarea name="booking-info" id="booking-info" cols="40" rows="4" placeholder="Tell us more..."></textarea>
+        </div>
+        <input id="booking-submit-button" type="submit" value="Submit">
 
-            <label for="lname"></label>
-            <input class="form-lname" type="text" id="lname" name="lname" placeholder="last name" required>
-          </div>
-          <div class="booking-form-phone-email">
-            <label for="phone-number"></label>
-            <input class="form-pnumber" type="tel" id="phone-number" name="phone_number" placeholder="Phone number"
-              required>
-            <label for="email"></label>
-            <input class="form-email" type="email" id="email" name="email_address" placeholder="email" required>
-          </div>
-          <div id="booking-form-radio">
-            <label for="restaurant">Restaurant</label>
-            <input type="radio" id="restaurant " name="booking_type " value="restaurant ">
-            <label for="Function Room">Function Room</label>
-            <input type="radio" id="function-room " name="booking_type " value="restaurant ">
-          </div>
-          <div class="booking-form-time_date">
-            <input type="date" id="booking-date" name="booking_date">
-            <input type="time" id="booking-time" name="booking_time">
-          </div>
-          <div class="booking-textarea">
-            <textarea name="booking-info" id="booking-info" cols="40" rows="4" placeholder="Tell us more..."></textarea>
-          </div>
-          <input id="booking-submit-button" type="submit" value="Submit">
+      </form>
+    </div>
 
-        </form>
+    <div class="google-maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5911.558774550504!2d-2.5646987327262036!3d51.46725717988212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fbb843b4b53%3A0x5322c2444dfd1f2b!2sThe%20Greenbank!5e0!3m2!1sen!2suk!4v1676489764386!5m2!1sen!2suk"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer id="footer-booking" class="--main-bg-green">
+      <div class="contact-info">
+        <p>THE GREENBANK, 57 BELLE VUE ROAD, EASTON, BRISTOL, BS5 6DP</p>
+        <p>0117 939 3771 | INFO@THEGREENBANKBRISTOL.CO.UK</p>
       </div>
 
-  </section>
-  <div class="google-maps">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5911.558774550504!2d-2.5646987327262036!3d51.46725717988212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fbb843b4b53%3A0x5322c2444dfd1f2b!2sThe%20Greenbank!5e0!3m2!1sen!2suk!4v1676489764386!5m2!1sen!2suk"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-  <footer id="footer-booking" class="--main-bg-green">
-    <div class="contact-info">
-      <p>THE GREENBANK, 57 BELLE VUE ROAD, EASTON, BRISTOL, BS5 6DP</p>
-      <p>0117 939 3771 | INFO@THEGREENBANKBRISTOL.CO.UK</p>
-    </div>
-
-    <div class="socials-icons">
-      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-    </div>
-  </footer>
+      <div class="socials-icons">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
