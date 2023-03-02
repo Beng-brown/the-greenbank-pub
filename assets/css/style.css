@@ -102,7 +102,7 @@ header {
 
   display: inline-block;
   padding: 10px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   letter-spacing: 2px;
   list-style-type: none;
 
@@ -170,13 +170,13 @@ header {
 
 .welcome-header h1 {
 
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
 }
 
 .welcome-header h2 {
 
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: center;
   font-style: italic;
   font-weight: 300;
@@ -190,7 +190,7 @@ header {
   max-width: 1200px;
   text-align: justify;
 
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 400;
 
   
@@ -227,7 +227,7 @@ header {
 
 #food-drink-header h2 {
 
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -311,7 +311,7 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .menu-text-box p {
@@ -334,7 +334,7 @@ header {
   background-color: rgba(88, 129, 87, 0.7);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 2em;
+  font-size: 2rem;
   width: auto;
   color: #DAD7CD;
 
@@ -369,7 +369,7 @@ header {
 .contact-info {
   padding: 15px;
   justify-content: center;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 
@@ -377,7 +377,7 @@ header {
 
   text-decoration: none;
   color: #000;
-  font-size: 2.2em;
+  font-size: 2.2rem;
 
   padding: 10px;
   font-weight: 600;
@@ -421,7 +421,7 @@ header {
 
   text-align: center;
 
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: bolder;
   text-decoration: none;
@@ -447,7 +447,7 @@ header {
   justify-content: center;
   margin: 0 auto;
   margin-top: 30px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 400;
 
   border-top:#588157 solid 2px  ;
@@ -474,7 +474,7 @@ header {
 
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   padding-bottom: 7px;
 }
 
@@ -554,8 +554,15 @@ header {
   margin: 0 auto;
 
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   margin-bottom: 40px;
+}
+
+#booking-sub-head{
+
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 
@@ -565,11 +572,13 @@ header {
   width: 66%;
   max-width: 1500px;
   text-align: justify;
-  font-size: 1.4em;
+  font-size: 1.4rem;
+  border-bottom: #588157 solid 2px;
+  border-top: #588157 solid 2px;
 }
 
 #booking-options-container{
-  padding-top: 60px;
+  padding-top: 10px;
   width: 100%;
   max-width: 1500px;
   display: flex;
@@ -578,13 +587,13 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 30px;
-  font-size: 1em;
+  font-size: 1.2rem;
   font-weight: 400;
 
   
   
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
   padding-bottom: 40px;
 }
 
@@ -593,6 +602,9 @@ header {
 
   height: fit-content;
   width:47%;
+
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 
 #function-room-hire h4,
@@ -650,7 +662,7 @@ header {
   text-align: center;
   font-size: .8em;
 
-  margin-top: 90px;
+  margin-top: 40px;
 
 
 }
@@ -709,6 +721,13 @@ textarea {
   font-family: 'Inter', sans-serif;
 }
 
+#booking-form-header{
+
+  text-align: center;
+  padding-top: 30px;
+  text-transform: capitalize;
+}
+
 .email-text{
 
   text-align: center;
@@ -735,7 +754,7 @@ textarea {
   .nav-list-item {
 
     padding: 10px;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 0px;
     list-style-type: none;
   }
@@ -789,7 +808,7 @@ textarea {
     width: 95%;
     height: 75px;
     justify-content: space-between;
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
 
   #reviews div p i {
