@@ -568,6 +568,40 @@ header {
   font-size: 1.4em;
 }
 
+#booking-options-container{
+  padding-top: 60px;
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 1em;
+  font-weight: 400;
+
+  
+  
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+#function-room-hire,
+#restaurant-hire{
+
+  height: fit-content;
+  width:47%;
+}
+
+#function-room-hire h4,
+#restaurant-hire h4{
+
+  text-align: center;
+}
+
+
 #reviews {
 
   width: 100%;
@@ -606,10 +640,7 @@ header {
   text-align: left;
 }
 
-.stars {
 
-  color: aqua;
-}
 /*--------------------------------------------booking page form*/
 
 .booking-form-container {
@@ -618,6 +649,8 @@ header {
 
   text-align: center;
   font-size: .8em;
+
+  margin-top: 90px;
 
 
 }
@@ -764,5 +797,12 @@ textarea {
     visibility: hidden;
   }
 
-
+  #booking-options-container{
+    flex-direction: column;
+    justify-content: center;
+}
+#function-room-hire,
+#restaurant-hire{
+width: 98%;
+margin-bottom: 20px;
 }
