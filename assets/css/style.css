@@ -340,6 +340,11 @@ header {
   text-decoration: none;
 }
 
+.food-text{
+
+  margin-bottom: 50px;
+}
+
 /*--------------------------------------------Footer*/
 
 #footer-home {
@@ -585,6 +590,10 @@ header {
   text-align: left;
 }
 
+.stars {
+
+  color: aqua;
+}
 /*--------------------------------------------booking page form*/
 
 .booking-form-container {
@@ -649,6 +658,18 @@ textarea {
 .booking-textarea textarea {
 
   font-family: 'Inter', sans-serif;
+}
+
+.email-text{
+
+  text-align: center;
+}
+
+.email-text a{
+
+  color: #000;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 
