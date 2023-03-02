@@ -338,7 +338,7 @@ header {
   width: auto;
   color: #DAD7CD;
 
-  visibility: hidden;
+  
   transition: transform .5s
 }
 
@@ -763,16 +763,17 @@ textarea {
     padding-bottom: 5px;
   }
 
-  .menu-sunday-image,
-  .menu-food-image,
-  .menu-drink-image {
-    transform: scale(1.2);
-  }
+ 
 
   .menu-drink-image h2,
   .menu-food-image h2,
   .menu-sunday-image h2 {
     visibility: visible;
+  }
+  .menu-text-box{
+
+    visibility: hidden;
+    height:0px;
   }
 
   footer {
