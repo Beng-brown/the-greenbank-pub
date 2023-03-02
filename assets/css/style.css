@@ -826,4 +826,9 @@ textarea {
 width: 98%;
 margin-bottom: 20px;
 }
+.menu-text-box{
+
+  visibility: hidden;
+  height:0px;
+}
 }
