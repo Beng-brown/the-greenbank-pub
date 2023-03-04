@@ -450,7 +450,25 @@ header {
   margin-bottom: -30px;
 }
 
+.to-top-button{
+  
+  margin: auto;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #A3B18A;
+  width: fit-content;
+  padding: 4px;
+  color: #000;
+}
 
+.to-top-button p{ 
+  text-align: center;
+}
+
+.to-top-button a{
+color: #000;
+}
 
 
 
@@ -616,6 +634,7 @@ textarea {
 
 .email-text {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .email-text a {
