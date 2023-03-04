@@ -415,6 +415,23 @@ header {
 }
 
 
+/*--------------------------------------------Gallery*/
+
+#gallery{
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+#gallery img{
+  height: auto;
+  width: 15%;
+  margin: 2px;
+}
 
 
 /*--------------------------------------------Footer*/
@@ -645,6 +662,7 @@ textarea {
 
 
 /*--------------------------------------------media quries*/
+
 @media only screen and (max-width: 769px){
 .menu-drink-image:hover,
 .menu-food-image:hover,
@@ -657,6 +675,12 @@ textarea {
 
 .booking-form{
   box-shadow: none;
+}
+
+#gallery img{
+  height: auto;
+  width: 24%;
+  margin: 2px;
 }
 }
 
@@ -712,6 +736,12 @@ width: 100%;
 }
 }
 
+#gallery img{
+  height: auto;
+  width: 30%;
+  margin: 2px;
+}
+
 @media only screen and (max-width: 600px){
 .opening-times{
   width: 50%;
@@ -755,4 +785,10 @@ width: 100%;
     display: flex;
     flex-direction: column;
   }
+
+  #gallery img{
+  height: auto;
+  width: 48%;
+  margin: 2px;
+}
 }
