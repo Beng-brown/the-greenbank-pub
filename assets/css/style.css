@@ -41,6 +41,7 @@ html {
   border-bottom: #000 1px solid;
 }
 
+
 .menu-drink-image:hover,
 .menu-food-image:hover,
 .menu-sunday-image:hover {
@@ -465,7 +466,8 @@ header {
   padding-top: 40px;
   padding-bottom: 70px;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-style: italic;
   max-width: 1000px;
   margin:0 auto;
   padding-left: 10px;
@@ -620,7 +622,16 @@ textarea {
 
 
 /*--------------------------------------------media quries*/
-
+@media only screen and (max-width: 769px){
+.menu-drink-image:hover,
+.menu-food-image:hover,
+.menu-sunday-image:hover {
+  transform: scale(1.0);
+}
+.make-a-booking-button:hover {
+  transform: scale(1.0);
+}
+}
 
 @media only screen and (max-width: 680px) {
 
