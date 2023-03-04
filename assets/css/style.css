@@ -163,12 +163,12 @@ header {
   font-weight: 300;
 }
 
-.welcome-text {
+.main-text {
   padding-top: 30px;
   margin: 0 auto;
   width: 66%;
   max-width: 1200px;
-  text-align: justify;
+  text-align: left;
 
   font-size: 1.2rem;
   font-weight: 400;
@@ -292,6 +292,8 @@ header {
 
 /*-----------------bottom section-sign-up & opening times*/
 
+/* make a booking button/link*/
+
 .make-a-booking-container {
   width: 100%;
   display: flex;
@@ -320,6 +322,8 @@ header {
   color: black;
 }
 
+/* opening times/loyalty signup form*/
+
 #sign-up-section {
   width: 90%;
   max-width: 1100px;
@@ -332,6 +336,7 @@ header {
   padding-bottom: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
+
 }
 
 
@@ -343,11 +348,9 @@ header {
   text-align: left;
   align-items: center;
   margin-bottom: 20px;
-
 }
 
 .opening-times h4 {
-
   text-transform: capitalize;
   font-weight: 600;
   font-size: 1.5rem;
@@ -355,9 +358,10 @@ header {
 }
 
 .opening-times li {
-
   list-style-type: none;
 }
+
+/* loyalty sign up form*/
 
 .loyalty-signup {
   display: flex;
@@ -366,9 +370,6 @@ header {
   min-width: 300px;
   text-align: center;
   align-items: center;
-
-
-
 }
 
 .signup-form {
@@ -376,15 +377,16 @@ header {
   flex-direction: column;
   flex-wrap: nowrap;
   box-shadow: 5px 10px #888888;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .signup-form input {
-
   text-transform: capitalize;
 }
 
 #signup-submit-button {
-
   font-weight: bolder;
   border-radius: 5px;
   transition: transform .5s;
@@ -397,29 +399,30 @@ header {
 }
 
 .signup-form-container {
-  background-color: #A3B18A;
+
   width: fit-content;
   border-radius: 10px;
   padding: 3px;
-
 }
 
 .signup-form-container input {
-
   padding: 5px;
   margin: 5px;
 }
 
 .loyalty-signup h3,
 .opening-times h3 {
-
   align-items: center;
   text-transform: capitalize;
   font-weight: bold;
 }
+
+
+
+
 /*--------------------------------------------Footer*/
 
-#footer-home {
+.footer {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
@@ -439,25 +442,15 @@ header {
 .socials-icons i {
   color: #000;
   font-size: 2.2rem;
-
   padding: 10px;
   font-weight: 600;
-
 }
 
-#footer-booking {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 
 .google-maps iframe {
-
   height: 250px;
   width: 100%;
+  margin-bottom: -30px;
 }
 
 
@@ -473,16 +466,10 @@ header {
   padding-bottom: 70px;
   text-align: center;
   font-size: 1.4rem;
-}
-
-
-.booking-text {
-
-  margin: 0 auto;
-  width: 66%;
-  max-width: 1500px;
-  text-align: justify;
-  font-size: 1.4rem;
+  max-width: 1000px;
+  margin:0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #booking-options-container {
@@ -494,42 +481,32 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-
   font-size: 1.2rem;
   font-weight: 400;
-
-
-
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+/*---------------Booking descriptions*/
 #function-room-hire,
 #restaurant-hire {
-
   height: fit-content;
   width: 47%;
-
   padding-bottom: 20px;
-
 }
 
 #function-room-hire h2,
 #restaurant-hire h2 {
-
   text-align: center;
   font-size: 1.2rem;
-
 }
-
-
+/*------------reviews and background img*/
 #reviews {
-
   width: 100%;
   height: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   background-image: url(../img/review-bg-img.jpg);
   background-size: cover;
   background-position: center;
@@ -537,25 +514,21 @@ header {
   margin-top: 30px;
   margin-bottom: 20px;
   overflow: hidden;
-
   border-radius: 5px;
 }
 
 #reviews div {
-
   width: 22%;
   height: 95%;
   background-color: rgba(0, 0, 0, .7);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   border-radius: 10px;
 }
 
 #reviews div p {
-  color: aliceblue;
+  color: white;
   padding: 10px;
   text-align: left;
 }
@@ -566,16 +539,13 @@ header {
 .booking-form-container {
   display: flex;
   justify-content: center;
-
   text-align: center;
   font-size: .8em;
-
   margin-top: 40px;
   margin: 10px;
 }
 
 #booking-form-header {
-
   text-align: center;
   padding-top: 30px;
   text-transform: capitalize;
@@ -584,7 +554,6 @@ header {
 
 
 .booking-form {
-
   padding: 3px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -611,7 +580,6 @@ textarea {
 }
 
 .booking-form input {
-
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
@@ -620,43 +588,31 @@ textarea {
 }
 
 .booking-form label {
-
   text-transform: capitalize;
   padding-top: 7px;
   padding-left: 7px;
   text-align: left;
   font-size: 1rem;
+}
 
+.booking-textarea {
+  margin-top: 15px;
+}
 
+.booking-textarea textarea {
+  font-family: 'Inter', sans-serif;
 }
 
 #booking-time input,
 #booking-date input {
-
   font-family: 'Inter', sans-serif;
 }
-
-.booking-textarea {
-
-  margin-top: 15px;
-
-
-}
-
-.booking-textarea textarea {
-
-  font-family: 'Inter', sans-serif;
-
-}
-
 
 .email-text {
-
   text-align: center;
 }
 
 .email-text a {
-
   color: #000;
   font-weight: 500;
   text-decoration: underline;
@@ -665,44 +621,7 @@ textarea {
 
 /*--------------------------------------------media quries*/
 
-@media only screen and (max-width: 400px) {
 
-  #award-logo img {
-
-    width: 100%;
-
-  }
-
-  .nav-list-item {
-
-    padding: 10px;
-    font-size: 1rem;
-    letter-spacing: 0px;
-    list-style-type: none;
-  }
-
-  header {
-    padding-bottom: 5px;
-  }
-
-
-
-  .menu-drink-image h2,
-  .menu-food-image h2,
-  .menu-sunday-image h2 {
-    visibility: visible;
-  }
-
-  .menu-text-box {
-
-    visibility: hidden;
-    height: 0px;
-  }
-
-  footer {
-    justify-content: center;
-  }
-}
 
 
 
@@ -713,8 +632,7 @@ textarea {
 
   }
 
-  #footer-booking,
-  #footer-home {
+  .footer {
     justify-content: center;
 
   }
@@ -757,5 +675,71 @@ textarea {
 
     visibility: hidden;
     height: 0px;
+  }
+
+  #sign-up-section{
+    flex-wrap: wrap-reverse;
+  }
+
+.opening-times{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.loyalty-signup{
+  width: 98%;
+ 
+}
+}
+
+@media only screen and (max-width: 600px){
+.opening-times{
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  margin-top: 60px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+  #award-logo img {
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 10px;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    list-style-type: none;
+  }
+
+  header {
+    padding-bottom: 5px;
+  }
+  .menu-drink-image h2,
+  .menu-food-image h2,
+  .menu-sunday-image h2 {
+    visibility: visible;
+  }
+  .menu-text-box {
+
+    visibility: hidden;
+    height: 0px;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  .signup-form-names{
+    display: flex;
+    flex-direction: column;
+  }
+  .signup-form-email-phone{
+    display: flex;
+    flex-direction: column;
   }
 }
