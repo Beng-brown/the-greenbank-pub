@@ -607,10 +607,12 @@ header {
   padding-top: 40px;
 }
 
-#function-room-hire h4,
-#restaurant-hire h4{
+#function-room-hire h2,
+#restaurant-hire h2{
 
   text-align: center;
+  font-size: 1.2rem;
+ 
 }
 
 
@@ -711,9 +713,17 @@ textarea {
   padding-bottom: 5px;
 }
 
-.booking-form-time_date input {
+#booking-form-time-date input {
 
   font-family: 'Inter', sans-serif;
+}
+
+#booking-form-time-date label{
+
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  font-size: 0px;
 }
 
 .booking-textarea textarea {
