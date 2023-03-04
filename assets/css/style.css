@@ -383,10 +383,6 @@ header {
   padding: 5px;
 }
 
-.signup-form input {
-  text-transform: capitalize;
-}
-
 #signup-submit-button {
   font-weight: bolder;
   border-radius: 5px;
@@ -595,7 +591,6 @@ textarea {
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
-  text-transform: capitalize;
 }
 
 .booking-form label {
