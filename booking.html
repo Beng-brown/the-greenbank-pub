@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-  content="The Greenbank is an award-winning community pub in the heart of Easton">
+  <meta name="description" content="The Greenbank is an award-winning community pub in the heart of Easton">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -46,9 +45,9 @@
       <p><strong>Wether you are after a table for a few weekend drinks, a romantic dinner for two or a private party-
           We've got
           your covered. </strong>
-    </p>
-        </div>
-    
+      </p>
+    </div>
+
     <div class="booking-text">
 
       <div id="booking-options-container">
@@ -84,41 +83,52 @@
     </div>
   </section>
   <div id="booking-form-header">
-  <h3>Fill our the form below to get yourself booked in </h3>
+    <h3>Fill our the form below to get yourself booked in </h3>
   </div>
   <div class="booking-form-container">
     <form class="booking-form bg-color-lightgreen" action="https://formdump.codeinstitute.net/" method="post">
-      <div class="booking-form-names">
-        <label for="fname"></label>
-        <input class="form-fname" type="text" id="fname" name="fname" placeholder="first name" required>
+      <div class="booking-form-flex">
+      
+        <label for="fname">first name</label>
+        <input class="form-fname" type="text" id="fname" name="fname"  required>
 
-        <label for="lname"></label>
-        <input class="form-lname" type="text" id="lname" name="lname" placeholder="last name" required>
-      </div>
-      <div class="booking-form-phone-email">
-        <label for="phone-number"></label>
-        <input class="form-pnumber" type="tel" id="phone-number" name="phone_number" placeholder="Phone number"
+        <label for="lname">last name</label>
+        <input class="form-lname" type="text" id="lname" name="lname" required>
+
+
+        <label for="phone-number">Contact number</label>
+        <input class="form-pnumber" type="tel" id="phone-number" name="phone_number"
           required>
-        <label for="email"></label>
-        <input class="form-email" type="email" id="email" name="email_address" placeholder="email" required>
-      </div>
-      <div id="booking-form-radio">
-        <label for="restaurant">Restaurant</label>
-        <input type="radio" id="restaurant" name="booking_type" value="restaurant">
-        <label for="function-room">Function Room</label>
-        <input type="radio" id="function-room" name="booking_type" value="function-room">
-      </div>
-      <div id="booking-form-time-date">
-        <label for="date">date </label>
-        <input type="date" id="booking-date" name="booking_date">
-        <label for="time">time </label>
-        <input type="time" id="booking-time" name="booking_time">
-      </div>
-      <div class="booking-textarea">
-        <textarea name="booking-info" id="booking-info" cols="40" rows="4" placeholder="Tell us more..."></textarea>
-      </div>
-      <input id="booking-submit-button" type="submit" value="Submit">
+        <label for="email">email address</label>
+        <input class="form-email" type="email" id="email" name="email_address"  required>
 
+        <label for="booking-type">Type of Booking</label>
+        <input list="booking-types" name="booking-type" id="booking-type">
+
+        <datalist id="booking-types">
+          <option value="Restaurant">
+          <option value="Private Function">
+          <option value="Other">
+        </datalist>
+
+        <label for="guest-numbers">number of guests</label>
+        <input class="guest-number" type="number" id="guest-numbers" name="guest-numbers"
+          required>
+
+
+        <label for="booking-date">Requested Date </label>
+        <input type="date" id="booking-date" name="booking-date">
+
+
+        <label for="booking-time">Requested Time </label>
+        <input type="time" id="booking-time" name="booking-time">
+
+        <div class="booking-textarea">
+          <textarea name="booking-info" id="booking-info" cols="40" rows="8" placeholder="Tell us more..."></textarea>
+
+          <input id="booking-submit-button" type="submit" value="Submit">
+        </div>
+      </div>
     </form>
   </div>
 

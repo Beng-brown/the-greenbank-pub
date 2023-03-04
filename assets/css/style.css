@@ -69,11 +69,11 @@ html {
   background-color: rgba(163, 177, 138, 100%);
 }
 
-.border-green{
-border-top: #588157 2px solid;
-border-bottom: #588157 2px solid;
-padding-top: 30px;
-padding-bottom: 20px;
+.border-green {
+  border-top: #588157 2px solid;
+  border-bottom: #588157 2px solid;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 /*--------------------------------------------header*/
@@ -193,7 +193,7 @@ header {
   font-size: 1.2rem;
   font-weight: 400;
 
-  
+
 }
 
 #award-logo {
@@ -338,7 +338,7 @@ header {
   width: auto;
   color: #DAD7CD;
 
-  
+
   transition: transform .5s
 }
 
@@ -349,7 +349,7 @@ header {
   text-decoration: none;
 }
 
-.food-text{
+.food-text {
 
   margin-bottom: 50px;
 }
@@ -450,7 +450,7 @@ header {
   font-size: 1.2rem;
   font-weight: 400;
 
-  border-top:#588157 solid 2px  ;
+  border-top: #588157 solid 2px;
   border-bottom: #588157 2px solid;
   margin-bottom: 60px;
   margin-top: 30px;
@@ -558,7 +558,7 @@ header {
   margin-bottom: 40px;
 }
 
-#booking-sub-head{
+#booking-sub-head {
 
   padding-bottom: 70px;
   text-align: center;
@@ -577,7 +577,7 @@ header {
   border-top: #588157 solid 2px;
 }
 
-#booking-options-container{
+#booking-options-container {
   padding-top: 10px;
   width: 100%;
   max-width: 1500px;
@@ -590,29 +590,29 @@ header {
   font-size: 1.2rem;
   font-weight: 400;
 
-  
-  
+
+
   margin-bottom: 20px;
   margin-top: 10px;
   padding-bottom: 40px;
 }
 
 #function-room-hire,
-#restaurant-hire{
+#restaurant-hire {
 
   height: fit-content;
-  width:47%;
+  width: 47%;
 
   padding-bottom: 30px;
   padding-top: 40px;
 }
 
 #function-room-hire h2,
-#restaurant-hire h2{
+#restaurant-hire h2 {
 
   text-align: center;
   font-size: 1.2rem;
- 
+
 }
 
 
@@ -640,7 +640,7 @@ header {
   width: 22%;
   height: 95%;
   background-color: rgba(0, 0, 0, .7);
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -665,12 +665,19 @@ header {
   font-size: .8em;
 
   margin-top: 40px;
-
-
+  margin: 10px;
 }
 
-.booking-form {
+#booking-form-header {
 
+  text-align: center;
+  padding-top: 30px;
+  text-transform: capitalize;
+}
+
+
+
+.booking-form {
 
   padding: 3px;
   border-radius: 10px;
@@ -679,15 +686,11 @@ header {
   box-shadow: 5px 10px #888888;
 }
 
-.booking-form-names {
+.booking-form-flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.booking-form-phone-email {
-  display: flex;
-  flex-direction: row;
-}
 
 textarea {
   border-radius: 10px;
@@ -698,6 +701,7 @@ textarea {
   width: 80%;
   font-weight: bolder;
   transition: transform .5s;
+  margin-top: 15px;
 }
 
 .booking-form input {
@@ -706,44 +710,46 @@ textarea {
   margin: 5px;
   border-radius: 10px;
   text-transform: capitalize;
+
 }
 
-#booking-form-radio {
+.booking-form label {
 
-  padding-bottom: 5px;
+  text-transform: capitalize;
+  padding-top: 7px;
+  padding-left: 7px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 300px;
+
 }
 
-#booking-form-time-date input {
+#booking-time input,
+#booking-date input {
 
   font-family: 'Inter', sans-serif;
 }
 
-#booking-form-time-date label{
+.booking-textarea {
 
-  visibility: hidden;
-  width: 0px;
-  height: 0px;
-  font-size: 0px;
+  margin-top: 15px;
+
+
 }
 
 .booking-textarea textarea {
 
   font-family: 'Inter', sans-serif;
+
 }
 
-#booking-form-header{
 
-  text-align: center;
-  padding-top: 30px;
-  text-transform: capitalize;
-}
-
-.email-text{
+.email-text {
 
   text-align: center;
 }
 
-.email-text a{
+.email-text a {
 
   color: #000;
   font-weight: 500;
@@ -773,17 +779,18 @@ textarea {
     padding-bottom: 5px;
   }
 
- 
+
 
   .menu-drink-image h2,
   .menu-food-image h2,
   .menu-sunday-image h2 {
     visibility: visible;
   }
-  .menu-text-box{
+
+  .menu-text-box {
 
     visibility: hidden;
-    height:0px;
+    height: 0px;
   }
 
   footer {
@@ -810,11 +817,13 @@ textarea {
 
     margin-top: 30px;
   }
-    #reviews{
+
+  #reviews {
     display: flex;
     flex-direction: column;
   }
-  #reviews div{
+
+  #reviews div {
 
     width: 95%;
     height: 75px;
@@ -827,18 +836,20 @@ textarea {
     visibility: hidden;
   }
 
-  #booking-options-container{
+  #booking-options-container {
     flex-direction: column;
     justify-content: center;
-}
-#function-room-hire,
-#restaurant-hire{
-width: 98%;
-margin-bottom: 20px;
-}
-.menu-text-box{
+  }
 
-  visibility: hidden;
-  height:0px;
-}
+  #function-room-hire,
+  #restaurant-hire {
+    width: 98%;
+    margin-bottom: 20px;
+  }
+
+  .menu-text-box {
+
+    visibility: hidden;
+    height: 0px;
+  }
 }
