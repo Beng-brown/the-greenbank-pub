@@ -81,36 +81,6 @@ html {
   padding-bottom: 20px;
 }
 
-/*--------------------------------------------header, logo & nav-bar*/
-
-header {
-  height: 200px;
-}
-
-.gb-logo {
-  padding-top: 20px;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.nav-link {
-  display: inline-block;
-  padding: 10px;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
-  list-style-type: none;
-  text-transform: capitalize;
-}
-
-.nav-link a {
-  color: #000;
-}
-
 /*--------------------------------------------hero imgs*/
 
 .hero-img-container {
@@ -141,6 +111,35 @@ header {
   background-image: url(../img/hero-booking.jpg);
 }
 
+/*--------------------------------------------header, logo & nav-bar*/
+
+header {
+  height: 200px;
+}
+
+.gb-logo {
+  padding-top: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.nav-link a {
+  color: #000;
+}
 
 /*--------------------------------------------Welcome header/text*/
 
@@ -148,7 +147,7 @@ header {
 .page-header {
   height: fit-content;
   max-width: 700px;
-  padding: 15px;
+  margin: 15px;
   border-radius: 5px;
   margin: 0 auto;
   font-size: 1.5rem;
