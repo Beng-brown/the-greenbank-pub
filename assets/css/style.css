@@ -1,9 +1,14 @@
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* remove default styles */
 
 * {
   border: 0;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 body {
@@ -49,7 +54,7 @@ html {
   opacity: 1;
 }
 
-.make-a-booking:hover {
+.make-a-booking-button:hover {
   transform: scale(1.2);
 }
 
@@ -59,7 +64,7 @@ html {
   background-color: #588157;
 }
 
-/*--------------------------------------------veriables*/
+/*--------------------------------------------main styles*/
 
 .main-bg-green {
   background-color: #588157;
@@ -76,42 +81,33 @@ html {
   padding-bottom: 20px;
 }
 
-/*--------------------------------------------header*/
+/*--------------------------------------------header, logo & nav-bar*/
 
 header {
-
-
   height: 200px;
 }
 
 .gb-logo {
   padding-top: 20px;
-
 }
 
 .nav-bar {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
-.nav-list-item {
-
+.nav-link {
   display: inline-block;
   padding: 10px;
   font-size: 1.3rem;
   letter-spacing: 2px;
   list-style-type: none;
-
   text-transform: capitalize;
 }
 
-.nav-list-item a {
-
-  text-decoration: none;
+.nav-link a {
   color: #000;
 }
 
@@ -123,64 +119,48 @@ header {
   padding-bottom: 40px;
 }
 
-#hero-img-home {
-  width: 100%;
-  height: 400px;
-  background-image: url(../img/hero-home.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-top: 10px;
-
-}
-
-#hero-img-food {
-  width: 100%;
-  height: 400px;
-  background-image: url(../img/hero-img-food.jpg);
-  background-size: cover;
-  background-position: center;
-
-
-}
-
+#hero-img-home,
+#hero-img-food,
 #hero-img-booking {
   width: 100%;
   height: 400px;
-  background-image: url(../img/hero-booking.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 10px;
 }
 
+#hero-img-home {
+  background-image: url(../img/hero-home.jpg);
+}
+
+#hero-img-food {
+  background-image: url(../img/hero-img-food.jpg);
+}
+
+#hero-img-booking {
+  background-image: url(../img/hero-booking.jpg);
+}
 
 
 /*--------------------------------------------Welcome header/text*/
 
 
-
-
-.welcome-header {
-
+.page-header {
   height: fit-content;
   max-width: 700px;
   padding: 15px;
   border-radius: 5px;
   margin: 0 auto;
-}
-
-.welcome-header h1 {
-
   font-size: 2rem;
   text-align: center;
 }
 
-.welcome-header h2 {
 
+.page-header h2 {
   font-size: 1.5rem;
   text-align: center;
   font-style: italic;
   font-weight: 300;
-
 }
 
 .welcome-text {
@@ -192,26 +172,20 @@ header {
 
   font-size: 1.2rem;
   font-weight: 400;
-
-
 }
 
 #award-logo {
-
   margin-bottom: 70px;
   margin-top: 70px;
   text-align: center;
-
 }
 
 #award-logo img {
-
   width: 60%;
   max-width: 250px;
-
 }
 
-/*--------------------------------------------food/Drink section*/
+/*----------------------food/Drink section*/
 
 #food-drink-header {
   color: #DAD7CD;
@@ -222,11 +196,9 @@ header {
   top: 230px;
   background-color: rgba(3, 3, 3, 0.3);
   border-radius: 10px;
-
 }
 
 #food-drink-header h2 {
-
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
@@ -250,17 +222,16 @@ header {
   justify-content: center;
 }
 
-.menu-drink-image {
+.menu-drink-image,
+.menu-food-image,
+.menu-sunday-image {
   /* center code for headings*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
   width: 50%;
   min-width: 300px;
   height: 300px;
-  background-image: url(../img/drink-menu-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -268,38 +239,16 @@ header {
 
 }
 
+.menu-drink-image {
+  background-image: url(../img/drink-menu-img.jpg);
+}
+
 .menu-food-image {
-  /* center code for headings*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  width: 50%;
-  min-width: 300px;
-  height: 300px;
   background-image: url(../img/food-menu-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  transition: transform .5s;
-
 }
 
 .menu-sunday-image {
-  /* center code for headings*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  width: 50%;
-  min-width: 300px;
-  height: 300px;
   background-image: url(../img/sunday-menu-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  transition: transform .5s;
-
 }
 
 .menu-text-box {
@@ -315,20 +264,17 @@ header {
 }
 
 .menu-text-box p {
-
   font-style: italic;
   text-align: justify;
 }
 
 .menu-text-box p {
   padding: 0 20px 0 20px;
-
 }
 
 .menu-drink-image h2,
 .menu-food-image h2,
 .menu-sunday-image h2 {
-
   text-align: center;
   flex-direction: column;
   background-color: rgba(88, 129, 87, 0.7);
@@ -337,70 +283,14 @@ header {
   font-size: 2rem;
   width: auto;
   color: #DAD7CD;
-
-
   transition: transform .5s
 }
 
-.menu-drink-image a,
-.menu-food-image a,
-.menu-sunday-image a {
-
-  text-decoration: none;
-}
-
 .food-text {
-
   margin-bottom: 50px;
 }
 
-/*--------------------------------------------Footer*/
-
-#footer-home {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.contact-info {
-  padding: 15px;
-  justify-content: center;
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-
-.socials-icons i {
-
-  text-decoration: none;
-  color: #000;
-  font-size: 2.2rem;
-
-  padding: 10px;
-  font-weight: 600;
-
-}
-
-#footer-booking {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.google-maps iframe {
-
-  height: 250px;
-  width: 100%;
-}
-
-
-/*--------------------------------------------sign-up section*/
+/*-----------------bottom section-sign-up & opening times*/
 
 .make-a-booking-container {
   width: 100%;
@@ -411,51 +301,37 @@ header {
   border-radius: 10px;
 }
 
-.make-a-booking {
-
+.make-a-booking-button {
   margin-top: 60px;
   height: fit-content;
   max-width: 250px;
   padding: 15px;
   border-radius: 5px;
-
   text-align: center;
-
   font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: bolder;
-  text-decoration: none;
-
   transition: transform .5s;
-
   box-shadow: 5px 10px #888888;
   border-radius: 10px;
 }
 
-.make-a-booking a {
-  text-decoration: none;
+.make-a-booking-button a {
   color: black;
 }
 
 #sign-up-section {
-
-  padding-top: 60px;
   width: 90%;
   max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 30px;
   font-size: 1.2rem;
   font-weight: 400;
-
-  border-top: #588157 solid 2px;
-  border-bottom: #588157 2px solid;
-  margin-bottom: 60px;
-  margin-top: 30px;
   padding-bottom: 40px;
-
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 
@@ -541,25 +417,59 @@ header {
   text-transform: capitalize;
   font-weight: bold;
 }
+/*--------------------------------------------Footer*/
+
+#footer-home {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contact-info {
+  padding: 15px;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.socials-icons i {
+  color: #000;
+  font-size: 2.2rem;
+
+  padding: 10px;
+  font-weight: 600;
+
+}
+
+#footer-booking {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.google-maps iframe {
+
+  height: 250px;
+  width: 100%;
+}
+
+
+
 
 
 /*--------------------------------------------Booking page welcome*/
 
-.booking-header {
 
-  height: fit-content;
-  max-width: 250px;
-  padding: 15px;
-  border-radius: 5px;
-  margin: 0 auto;
-
-  text-align: center;
-  font-size: 1.4rem;
-  margin-bottom: 40px;
-}
 
 #booking-sub-head {
-
+  padding-top: 40px;
   padding-bottom: 70px;
   text-align: center;
   font-size: 1.4rem;
@@ -573,8 +483,6 @@ header {
   max-width: 1500px;
   text-align: justify;
   font-size: 1.4rem;
-  border-bottom: #588157 solid 2px;
-  border-top: #588157 solid 2px;
 }
 
 #booking-options-container {
@@ -586,15 +494,13 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: 30px;
+
   font-size: 1.2rem;
   font-weight: 400;
 
 
 
-  margin-bottom: 20px;
-  margin-top: 10px;
-  padding-bottom: 40px;
+
 }
 
 #function-room-hire,
@@ -603,8 +509,8 @@ header {
   height: fit-content;
   width: 47%;
 
-  padding-bottom: 30px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+
 }
 
 #function-room-hire h2,
