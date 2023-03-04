@@ -84,7 +84,7 @@ header {
   height: 200px;
 }
 
-.logo {
+.gb-logo {
   padding-top: 20px;
 
 }
@@ -720,7 +720,7 @@ textarea {
   padding-left: 7px;
   text-align: left;
   font-size: 1rem;
-  font-weight: 300px;
+
 
 }
 
