@@ -57,7 +57,74 @@ This website is for the Greenbank Pub- I have set out to create an easily naviga
 
  ## User Stories
 
- h
+ ### Client Goals
 
+- To be imedietly obvious that this is a hospitality business- with the name and relevent pictures this is imedietly apparent.
+- To traffic more trade to the venue in the way of bookings. Offering a simple form to make a reservations/ask for more info.
+-To be resonsive and able to view on all devices.
+- simple navigation and access to food/drink menus. 
+- Contact details and where to find us as well as social media links.
 
+ ### First time Visitor Goals
 
+ - I want to find out the location of the pub and its opening hours for drinks and food.
+ - I want to be able to see the menus to make sure I want to eat/drink there.
+ - I want to gain a sence of what the pub is like through attractive pictures of the place its self and its offerings.
+ - lastly I would like to book a table simply and quickly. 
+
+ ### Second Time Visitor Goals
+
+ - I would like access to the recent menus and opening times etc in case anything has chanaged.
+ - I would like to be able to book a table quick and easily.
+ - I would like to be able to be able to find easily contact information for any urther questions I may have.
+
+ ### Multiple Visitor Goals
+
+ - I would like to access the menus.
+ - I would like to book a table.
+ 
+<br>
+
+# Design
+
+## Colour Scheme
+
+I created a pallete using the site 	[Coolers ](https://coolors.co/). I choose to go with a Green theme for obvious reasons. Creating a nice earthy, soothing colors which also offered great contrast. Ideal for highlighting headers, defining sections and other important infomation.  
+
+<br>
+
+<img src="assets/img/readme/coolers-pallete.png">
+ 
+ <br>
+
+## Fonts
+
+I used [Google Fonts](https://fonts.google.com/) for my webpage fonts. I settled with 'Inter' I really liked this font it was nice and readable for accesability reasons. It also came with a range of weights, which ment after some playing around I only needed the one font. With the added weight it gave great contrast between headers and areas of text. I feel it complimented site really well. I also used the back up as san-serif.
+
+## Wireframes and Structure
+
+I used Figma to create some previews of what I envisioned my site to look like. This was a great tool, as even though my finished project does stray slightly to the orginal plan, fimga allowed me to already have my fonts, color schemes and general layout of the site ready to code. This being my first project benifited my enormiously. 
+<br>
+
+### Wireframe screenshots:
+<details><summary>Desktop</summary>
+<img src="assets/img/readme/desktop-figma.png">
+</details>
+
+<details><summary>Mobile</summary>
+<img src="assets/img/readme/mobile-figma.png">
+</details>
+<br>
+As you can see, during the coding process I created another page and moved the food & drink section over. I chose to do this as  felt the page was slightly conjested and it made room for a small gallery on the index page.
+
+The sites structure comprises of 
+
+- A Home page
+- Food & Drinks page
+- Booking Page
+
+### Features
+
+**ALL** the pages contain the same header and footer. And follow the same pattern of having a hero image placed just below. 
+
+**Header**- The header comprises of two parts
