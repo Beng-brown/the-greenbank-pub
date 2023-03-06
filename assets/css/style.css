@@ -193,7 +193,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
   margin: auto;
 }
 
@@ -318,7 +318,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: px;
   border-radius: 10px;
 }
 
