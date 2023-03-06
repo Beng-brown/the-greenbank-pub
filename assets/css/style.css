@@ -414,26 +414,6 @@ header {
   font-weight: bold;
 }
 
-
-/*--------------------------------------------Gallery*/
-
-#gallery{
-  width: 80%;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  margin: auto;
-}
-
-#gallery img{
-  height: auto;
-  width: 15%;
-  margin: 2px;
-}
-
-
 /*--------------------------------------------Footer*/
 
 .footer {
