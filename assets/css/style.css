@@ -188,7 +188,7 @@ header {
 /*--------------------------------------------Gallery*/
 
 #gallery{
-  width: 80%;
+  width: 90%;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -198,9 +198,11 @@ header {
 }
 
 #gallery img{
-  height: 20px;
-  margin: 2px;
+    height: auto;
+    width: 16%;
+    margin: 2px;
 }
+
 
 /*----------------------food/Drink section*/
 
@@ -673,16 +675,9 @@ textarea {
 .booking-form{
   box-shadow: none;
 }
-
-#gallery img{
-  height: auto;
-  width: 24%;
-  margin: 2px;
-}
 }
 
 @media only screen and (max-width: 680px) {
-
   .footer {
     justify-content: center;
   }
@@ -731,12 +726,11 @@ textarea {
 .page-header{
 width: 100%;
 }
-}
-
 #gallery img{
   height: auto;
   width: 30%;
   margin: 2px;
+}
 }
 
 @media only screen and (max-width: 600px){
