@@ -123,9 +123,11 @@ The sites structure comprises of
 - Food & Drinks page
 - Booking Page
 
-### Features
+## Features
 
-**ALL** the pages contain the same header and footer. And follow the same pattern of having a hero image placed just below. 
+**ALL** the pages contain the same header and footer. And follow the same pattern of having a hero image placed just below. There are also alternative links thoughout the pages offering the vister to continue their journey through the site without having to scroll back to the top. There is also a small "back to the top button" on each page to add to better user experience.
+
+The suggested journey would be Index > Food & Drink > Booking. 
 
 **Header**- The header comprises of two parts 1) being the logo which I created myself using figma and then exporting it. 2) Being the navigation links on the opposite side. Giving a smiple but smart apperance. 
 
@@ -148,5 +150,57 @@ Similarly to the header this also folds when on smaller screensizes. For the sam
 The home page comprises of 3 sections the first being a hero image followed by an "about" paragraph giving a breif background on the pub. We then have a gallery consisting of 6 images & finally followed by a section about our customer loyalty scheme inc a sign up form and our pub/kicthen opening times.
 
 All pictures and text have been carefully placed and picked so that it is obvious that this page is for a pub/restaraunt.
+
 ### Food & Drinks Page
+The food & Drink page also follows in a similar mannor, having a large hero img and some text about what we offer. 
+
+Beneath this we have our menu section. With links to the PDF menu tied to the pictures. These also scale 1:2 when hovered over, which is a nice touch to draw attention. However this wouldnt work with mobile sizes and would offer a poor UX as shown below it is coded to be responive and take up less space. The hover is ignored and the text bos is hidden-on smaller screens.
+<details><summary>Menus on Desktop</summary>
+<img src="assets/img/readme/menus-desktop.png">
+</details>
+
+<details><summary>Menus on Mobile</summary>
+<img src="assets/img/readme/menus-mobile.png">
+</details>
+<br>
+
 ### Booking Page
+
+The booking page comprises of a large booking form beneath text about options in regards to booking, private function/table reservations etc. 
+This is followed by 4 responsive reviews and an iframe containing a google map of where the Greenbank Pub is situated. 
+
+<details><summary>Booking Form</summary>
+<img src="assets/img/readme/booking-form.png">
+</details>
+
+<details><summary>iframe/reviews section</summary>
+<img src="assets/img/readme/iframe-reviews.png">
+</details>
+<br>
+
+# Technologies 
+
+## Languages
+CSS & HTML 
+
+## Tools
+
+- Github
+- Gitpod
+- Google Dev Tools
+- Figma
+- Fontawsome
+- https://ianlunn.github.io/Hover/
+- Coolers
+- Pexels
+- Am I Responsive
+- Optimizilla
+
+
+
+
+& technologies used
+programs used
+websites and other sources
+
+
