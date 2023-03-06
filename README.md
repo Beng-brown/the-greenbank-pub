@@ -103,7 +103,7 @@ I used [Google Fonts](https://fonts.google.com/) for my webpage fonts. I settled
 
 ## Wireframes and Structure
 
-I used Figma to create some previews of what I envisioned my site to look like. This was a great tool, as even though my finished project does stray slightly to the orginal plan, fimga allowed me to already have my fonts, color schemes and general layout of the site ready to code. This being my first project benifited my enormiously. 
+I used [Figma](https://www.figma.com/) to create some previews of what I envisioned my site to look like. This was a great tool, as even though my finished project does stray slightly to the orginal plan, fimga allowed me to already have my fonts, color schemes and general layout of the site ready to code. This being my first project benifited my enormiously. 
 <br>
 
 ### Wireframe screenshots:
@@ -127,4 +127,26 @@ The sites structure comprises of
 
 **ALL** the pages contain the same header and footer. And follow the same pattern of having a hero image placed just below. 
 
-**Header**- The header comprises of two parts
+**Header**- The header comprises of two parts 1) being the logo which I created myself using figma and then exporting it. 2) Being the navigation links on the opposite side. Giving a smiple but smart apperance. 
+
+As shown below in desktop and then mobile sized screens. On smaller screens the navigation links shift to beneith the logo. Allowing for greater asetics, user experence and showing repsonsive design.  
+
+<img src="assets/img/readme/header-example-desktop.png">
+<img src="assets/img/readme/header-example-mobile.png">
+<br>
+
+**Footer**- The footer also follows a similar template however instead of a logo there is the address and the contact details of the venue. Followed on the otherside by social media links. 
+
+Similarly to the header this also folds when on smaller screensizes. For the same reasons as above. 
+
+<img src="assets/img/readme/footer-example-desktop.png">
+<img src="assets/img/readme/footer-example-mobile.png">
+<br>
+
+### Home Page
+
+The home page comprises of 3 sections the first being a hero image followed by an "about" paragraph giving a breif background on the pub. We then have a gallery consisting of 6 images & finally followed by a section about our customer loyalty scheme inc a sign up form and our pub/kicthen opening times.
+
+All pictures and text have been carefully placed and picked so that it is obvious that this page is for a pub/restaraunt.
+### Food & Drinks Page
+### Booking Page
