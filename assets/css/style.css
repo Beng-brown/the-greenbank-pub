@@ -185,6 +185,23 @@ header {
   max-width: 250px;
 }
 
+/*--------------------------------------------Gallery*/
+
+#gallery{
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+#gallery img{
+  height: 20px;
+  margin: 2px;
+}
+
 /*----------------------food/Drink section*/
 
 #food-drink-header {
@@ -734,6 +751,9 @@ width: 100%;
 
 @media only screen and (max-width: 400px) {
   #award-logo img {
+    width: 100%;
+  }
+  .menu-container{
     width: 100%;
   }
   .nav-link {
