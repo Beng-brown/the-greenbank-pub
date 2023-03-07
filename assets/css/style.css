@@ -122,6 +122,10 @@ header {
   padding-top: 20px;
 }
 
+.gb-logo img{
+  width:322px;
+
+}
 .nav-bar {
   display: flex;
   justify-content: space-around;

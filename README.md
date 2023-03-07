@@ -242,7 +242,19 @@ This site is responsive on all sized devices.
 I have tested this site on Chrome, Mozilla, Edge & Safari (mobile.) I have tested the responsivness using the screen device size on devtools and also checked all links and images are displaying and working.  
 
 ## Lighthouse
+<details><summary>Desktop results shown below, Order: Index > Food & Drink > Booking</summary>
 
-Desktop results shown below, Order: Index > Food & Drink > Booking
 
 <img src="assets/img/readme/desktop-dev.png">
+</details>
+
+<details><summary>Mobile results shown below, Order: Index > Food & Drink > Booking </summary>
+<img src="assets/img/readme/mobile-dev-before.png">
+</details>
+
+As seen on the mobile results the performance can be better, as suggested by DevTools I converted all my images from jpeg to webp. Reducing the file size and lessing the loading times. 
+
+<details><summary>Updated results</summary>
+<img src="assets/img/readme/mobile-dev-after.png">
+</details>
+
