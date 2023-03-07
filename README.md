@@ -232,13 +232,26 @@ CSS & HTML
 
 One slight oversight that I fixed was attaching "required" into the booking form into all the sections which needed to be filled. 
 
-## Summary
+## User Story Summary
 
 Overal this website is easily navigated for both the first time and multiple visitors. With clear and obvious links taking the user directly to were they need to go. Or a slightly more meandering route for the first time visitor who would be looking for more information about the establishment. 
 
 The client goals were to make this stand out as a friendly hospitality venue, through the use and placement of images, logos and text this has been achieved. With several links and prompts throughout the page urging the user to continue and view our menus followed by the booking page. increasing traffic and hopefully bookings. 
 
 This site is responsive on all sized devices.
+
+## Links and Functions
+
+| **Page** | **Testing** | **Outcome** |
+| ---| ---| ---|
+|All| Nav links go to the correct page/location| YES|
+|All| Logo links back to the home page| YES|
+|All| Social Media links to relevent platforms| YES|
+|All| Everything is repsonsive to device sizes| YES|
+|HOME| Loyalty Sign-ip form works as intended |YES|
+|BOOKING| Booking form works as intended- Required fields|YES|
+|FOOD & DRINK| Menu links to relevent PDF |YES|
+
 
 
 ## Browser Testing
@@ -278,19 +291,26 @@ As you can see as a result of these fixes it has boosted both the desktop and th
 ## Validator Testing 
 
 HTML
-<details><summary>Updated results- Once Changing img files</summary>
+<details><summary>Results No-issues</summary>
 <img src="assets/img/readme/html-validator.png">
 </details>
 <br>
 
 CSS
-<details><summary>Updated results- Once Changing img files</summary>
+<details><summary>Results No-issues</summary>
 <img src="assets/img/readme/css-validation.png">
 </details>
 <br>
 
 Color
-<details><summary>Updated results- Once Changing img files</summary>
+<details><summary>Results-No issues</summary>
 <img src="assets/img/readme/color-validator.png">
 </details>
 <br>
+
+
+## Credits
+
+media/content/code
+
+## Acknowledgments
