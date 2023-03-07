@@ -239,3 +239,4 @@ This site is responsive on all sized devices.
 
 ## Browser testing
 
+I have tested this site on Chrome, Mozilla, Edge & Safari (mobile.) I have tested the responsivness using the screen device size on devtools and also checked all links and images are displaying and working.  
