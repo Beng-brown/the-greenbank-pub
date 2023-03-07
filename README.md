@@ -7,9 +7,9 @@ This project was created for my first milestone project with code institutes Lev
 
 [Visit the Greenbank live webiste here](https://beng-brown.github.io/the-greenbank-pub/)
 
-## Contents 
+# Contents 
 
-### User Expereince Contents
+### [User Expereince](#User-Experience)
 - purpose/ user stories, first time, returning, frequent
 
 ### Design 
@@ -318,7 +318,7 @@ These are the steps that I to deploy my site on GitHub pages.
 - Click on the "settings" tab near the top right of the page
 - Then to "pages" on the setting menu-left hand side
 - Source select "deploy from a branch"
-- Brance select "main" & "root"
+- Branch select "main" & "root"
 - Hit save
 - May have to wait a few minuites- the site is then live!
 
@@ -326,6 +326,23 @@ These are the steps that I to deploy my site on GitHub pages.
 
 # Credits
 
-media/content/code
+## Media & Content
+
+- The images that used throughout my site were all sourced from Pexils
+- The Logo way made myself howver baised loosly on the actually Greenbank Pub logo
+- The menu PDFs are sourced from the original live Greenbank website, although this is a fictional site I have all the required permission from the Pub itself.
+- The content in the "welcome/Food/Booking" sections has been baised on the original site- adapted and built upon by myself. 
+
+## Code
+
+- https://ianlunn.github.io/Hover/ for button hover effects
+- font awsome for the icons used
+- General coding niggles helped by W3School
+- https://www.youtube.com/watch?v=u044iM9xsWU
+-  Code institute "love running"- Loosly baised my reviews section on their "time" section. 
+
+
 
 # Acknowledgments
+
+Special thanks to my Tutor- Pasquele & mentor-Jack for their help and guidence throughout this project. As well as staff at the Greenbank Pub for being the site guinea pigs and for their constant feedback throughout the project. 
