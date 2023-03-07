@@ -781,7 +781,10 @@ textarea {
   header {
     padding-bottom: 5px;
   }
-
+  .signup-form-container {
+    width: 90%;
+  }
+  
   .menu-drink-image h2,
   .menu-food-image h2,
   .menu-sunday-image h2 {
