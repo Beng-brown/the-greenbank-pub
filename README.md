@@ -228,6 +228,10 @@ CSS & HTML
 
 <br>
 
+## Improvements/Bug Fixes
+
+One slight oversight that I fixed was attaching "required" into the booking form into all the sections which needed to be filled. 
+
 ## Summary
 
 Overal this website is easily navigated for both the first time and multiple visitors. With clear and obvious links taking the user directly to were they need to go. Or a slightly more meandering route for the first time visitor who would be looking for more information about the establishment. 
@@ -237,7 +241,7 @@ The client goals were to make this stand out as a friendly hospitality venue, th
 This site is responsive on all sized devices.
 
 
-## Browser testing
+## Browser Testing
 
 I have tested this site on Chrome, Mozilla, Edge & Safari (mobile.) I have tested the responsivness using the screen device size on devtools and also checked all links and images are displaying and working.  
 
@@ -251,10 +255,42 @@ I have tested this site on Chrome, Mozilla, Edge & Safari (mobile.) I have teste
 <details><summary>Mobile results shown below, Order: Index > Food & Drink > Booking </summary>
 <img src="assets/img/readme/mobile-dev-before.png">
 </details>
+<br>
+
+## Improvements/Bug Fixes
 
 As seen on the mobile results the performance can be better, as suggested by DevTools I converted all my images from jpeg to webp. Reducing the file size and lessing the loading times. 
 
-<details><summary>Updated results</summary>
+<details><summary>Updated results- Once Changing img files</summary>
 <img src="assets/img/readme/mobile-dev-after.png">
 </details>
+<br>
 
+As you can see "best Practises" also isnt 100% this is as my main logo ignt big enough and is being stretched when moving down to smaller devices, i fixed this by making a new logo-same design but double the size in width/height and applying a max width code to re-size it down. Preventing any pixilation.
+
+<details><summary>Final results Desktop/Mobile</summary>
+<img src="assets/img/readme/final-devs.png">
+</details>
+<br>
+
+As you can see as a result of these fixes it has boosted both the desktop and the mobile results.  
+
+## Validator Testing 
+
+HTML
+<details><summary>Updated results- Once Changing img files</summary>
+<img src="assets/img/readme/html-validator.png">
+</details>
+<br>
+
+CSS
+<details><summary>Updated results- Once Changing img files</summary>
+<img src="assets/img/readme/css-validation.png">
+</details>
+<br>
+
+Color
+<details><summary>Updated results- Once Changing img files</summary>
+<img src="assets/img/readme/color-validator.png">
+</details>
+<br>
