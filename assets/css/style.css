@@ -539,7 +539,7 @@ color: #000;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(../img/review-bg-img.jpg);
+  background-image: url(../img/review-bg-img.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
