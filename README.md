@@ -5,7 +5,9 @@
 
 This project was created for my first milestone project with code institutes Level 5 Diploma in Web Application Development. I have chosen to create this fiction website since I actually personally work at this pub and thought it would be a good base for my first project- as well as lending to ample indivisuals to test and gain feedback from. 
 
-[Visit the Greenbank live webiste here](https://beng-brown.github.io/the-greenbank-pub/)
+## [Visit the Greenbank live webiste here](https://beng-brown.github.io/the-greenbank-pub/)
+
+<br>
 
 # Contents 
 
@@ -134,20 +136,26 @@ The sites structure comprises of
 
 The suggested journey would be Index > Food & Drink > Booking. 
 
+<br>
+
 **Header**- The header comprises of two parts 1) being the logo which I created myself using figma and then exporting it. 2) Being the navigation links on the opposite side. Giving a smiple but smart apperance. 
 
 As shown below in desktop and then mobile sized screens. On smaller screens the navigation links shift to beneith the logo. Allowing for greater asetics, user experence and showing repsonsive design.  
 
 <img src="assets/img/readme/header-example-desktop.png">
 <img src="assets/img/readme/header-example-mobile.png">
+
 <br>
 
 **Footer**- The footer also follows a similar template however instead of a logo there is the address and the contact details of the venue. Followed on the otherside by social media links. 
 
 Similarly to the header this also folds when on smaller screensizes. For the same reasons as above. 
 
+<br>
+
 <img src="assets/img/readme/footer-example-desktop.png">
 <img src="assets/img/readme/footer-example-mobile.png">
+
 <br>
 
 ### Home Page
@@ -350,4 +358,4 @@ These are the steps that I to deploy my site on GitHub pages.
 
 # Acknowledgments
 
-Special thanks to my Tutor- Pasquele & mentor-Jack for their help and guidence throughout this project. As well as staff at the Greenbank Pub for being the site guinea pigs and for their constant feedback throughout the project. 
+Special thanks to my Tutor- Pasquele & Mentor-Jack for their help and guidence throughout this project. As well as staff at the Greenbank Pub for being the site guinea pigs and for their constant feedback throughout the project. 
