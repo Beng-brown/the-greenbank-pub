@@ -241,6 +241,7 @@ The client goals were to make this stand out as a friendly hospitality venue, th
 This site is responsive on all sized devices.
 
 ## Links and Functions
+<br>
 
 | **Page** | **Testing** | **Outcome** |
 | ---| ---| ---|
@@ -252,7 +253,7 @@ This site is responsive on all sized devices.
 |BOOKING| Booking form works as intended- Required fields|YES|
 |FOOD & DRINK| Menu links to relevent PDF |YES|
 
-
+<br>
 
 ## Browser Testing
 
@@ -308,9 +309,23 @@ Color
 </details>
 <br>
 
+# Deployment
 
-## Credits
+These are the steps that I to deploy my site on GitHub pages.
+
+- Log into GitHub account
+- Head to the project repository
+- Click on the "settings" tab near the top right of the page
+- Then to "pages" on the setting menu-left hand side
+- Source select "deploy from a branch"
+- Brance select "main" & "root"
+- Hit save
+- May have to wait a few minuites- the site is then live!
+
+<img src="assets/img/readme/site-deployment.png">
+
+# Credits
 
 media/content/code
 
-## Acknowledgments
+# Acknowledgments
