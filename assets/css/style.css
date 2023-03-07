@@ -105,11 +105,11 @@ html {
 }
 
 #hero-img-food {
-  background-image: url(../img/hero-img-food.jpg);
+  background-image: url(../img/hero-img-food.webp);
 }
 
 #hero-img-booking {
-  background-image: url(../img/hero-booking.jpg);
+  background-image: url(../img/hero-booking.webp);
 }
 
 /*--------------------------------------------header, logo & nav-bar*/
@@ -259,15 +259,15 @@ header {
 }
 
 .menu-drink-image {
-  background-image: url(../img/drink-menu-img.jpg);
+  background-image: url(../img/drink-menu-img.webp);
 }
 
 .menu-food-image {
-  background-image: url(../img/food-menu-img.jpg);
+  background-image: url(../img/food-menu-img.webp);
 }
 
 .menu-sunday-image {
-  background-image: url(../img/sunday-menu-img.jpg);
+  background-image: url(../img/sunday-menu-img.webp);
 }
 
 .menu-text-box {
