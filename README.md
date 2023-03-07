@@ -202,19 +202,19 @@ CSS & HTML
 
 ## Tools
 
-- Github- Storing and hosting my code
-- Gitpod- Code Editor, create, edit and preview my code
--  Git- Used for version control
-- Google Dev Tools- Used to test responsivness on different screens & layout etc
-- Figma- Used to create and develop my previews inc fonts, colors, images etc
-- Fontawsome- Sourced my icons, including the social media in footer
-- Hover.css- Database of CSS3 powered hover effects to be applied to links, buttons
-- Coolers- Used to create and pick my color scheme
-- Pexels= Stock images used throughout my project
-- Am I Responsive-  To create a preview of my website across different devices
-- W3C CSS Validation Service-  Online validator used to validate my CSS code
-- W3C Markup Validation Service- Online validator used to validate my HTML code
-- Color Contrast Acessibility Validator- Used to check the color scheme in regards to contrast of fonts and background colors. 
+- [Github](https://github.com)- Storing and hosting my code
+- [Gitpod](https://www.gitpod.io/)- Code Editor, create, edit and preview my code
+-  [Git]()- Used for version control
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)- Used to test responsivness on different screens & layout etc
+- [Figma](https://www.figma.com/)- Used to create and develop my previews inc fonts, colors, images etc
+- [Fontawsome](https://fontawesome.com/)- Sourced my icons, including the social media in footer
+- [Hover.css](https://ianlunn.github.io/Hover/)- Database of CSS3 powered hover effects to be applied to links, buttons
+- [Cooleors](https://coolors.co/)- Used to create and pick my color scheme
+- [Pexels](https://www.pexels.com/)- Stock images used throughout my project
+- [Am I Responsive](https://ui.dev/amiresponsive)- To create a preview of my website across different devices
+- [W3C CSS Validation Service](https://validator.w3.org/)-  Online validator used to validate my CSS code
+- [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)- Online validator used to validate my HTML code
+- [Color Contrast Acessibility Validator](https://color.a11y.com/Contrast/)- Used to check the color scheme in regards to contrast of fonts and background colors. 
 
 <br>
 
@@ -341,18 +341,19 @@ These are the steps that I to deploy my site on GitHub pages.
 
 ## Media & Content
 
-- The images that used throughout my site were all sourced from Pexils
-- The Logo way made myself howver baised loosly on the actually Greenbank Pub logo
-- The menu PDFs are sourced from the original live Greenbank website, although this is a fictional site I have all the required permission from the Pub itself.
+- The images that used throughout my site were all sourced from [Pexils](https://www.pexels.com/)
+- The Logo way made myself however it is based loosly on the actually Greenbank Pub logo (premission recived)
+- The menu PDFs are sourced from the original live [Greenbank website](https://www.thegreenbankbristol.co.uk/), although this is a fictional site I have all the required permission from the Pub itself.
 - The content in the "welcome/Food/Booking" sections has been baised on the original site- adapted and built upon by myself. 
+
 
 ## Code
 
-- https://ianlunn.github.io/Hover/ for button hover effects
-- font awsome for the icons used
-- General coding niggles helped by W3School
-- https://www.youtube.com/watch?v=u044iM9xsWU
--  Code institute "love running"- Loosly baised my reviews section on their "time" section. 
+- [Ian lunn-github](https://ianlunn.github.io/Hover/) for button hover effects
+- [font awsome](https://fontawesome.com/) for the icons used
+- General coding niggles helped by [W3School](https://www.w3schools.com/)
+- [Kevin Powel-Learn flexbox](https://youtu.be/u044iM9xsWU) youtube video
+-  Code institute "love running"- Loosley based my "reviews" section on their "time" section. 
 
 
 
