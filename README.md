@@ -9,7 +9,7 @@ This project was created for my first milestone project with code institutes Lev
 
 # Contents 
 
-### [User Expereince](#user-expereince)
+### [User Experience](#user-experience)
 - [Purpose](#purpose)
 - [User Stories](#user-stories)
 
