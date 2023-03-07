@@ -35,8 +35,8 @@ This project was created for my first milestone project with code institutes Lev
 - [Links & Functions](#links-and-functions)
 - [Browser testing](#browser-testing)
 - [Lighthouse](#lighthouse)
-- [Improvements/Bug Fixes](#improvementsbug-fixes-1)
--[Validator Testing](#validator-testing)
+- [Improvements/Bug Fixes](#improvementsbug-fixes)
+- [Validator Testing](#validator-testing)
 
 ### [Deployment](#deployment-1)
 
