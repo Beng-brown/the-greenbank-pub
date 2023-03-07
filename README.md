@@ -175,6 +175,7 @@ Beneath this we have our menu section. With links to the PDF menu tied to the pi
 <details><summary>Menus on Mobile</summary>
 <img src="assets/img/readme/menus-mobile.png">
 </details>
+
 <br>
 
 ### Booking Page
@@ -241,9 +242,6 @@ CSS & HTML
 
 <br>
 
-## Improvements/Bug Fixes
-
-One slight oversight that I fixed was attaching "required" into the booking form into all the sections which needed to be filled. 
 
 ## User Story Summary
 
@@ -301,6 +299,10 @@ As you can see "best Practices" also isn't 100% this is as my main logo isn't bi
 <br>
 
 As you can see as a result of these fixes it has boosted both the desktop and the mobile results.  
+
+I made an adjustment to all the forms in the way of inserting a pattern input on the "phone number". This stopped the issue of someone placing letters. I also set a "min", "max" figure of 1 & 99 respectively in the booking form "Guest Count". This all added to the functionality of the webpage.
+
+Finally I added a new media query into the 400px break point. Boosting the size of the sign up form to 80%. was a little small and now looks far more visibly appealing. 
 
 ## Validator Testing 
 
