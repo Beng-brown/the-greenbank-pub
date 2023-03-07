@@ -9,34 +9,39 @@ This project was created for my first milestone project with code institutes Lev
 
 # Contents 
 
-### [User Expereince](#User-Experience)
-- purpose/ user stories, first time, returning, frequent
+### [User Expereince](#user-expereince)
+- [Purpose](#purpose)
+- [User Stories](#user-stories)
 
-### Design 
-- color
-- imagery
-- figma/wire frame
+### [Design](#design-1) 
+- [Colour Scheme](#colour-scheme) 
+- [Fonts](#fonts) 
+- [Wireframes & Structure](#wireframes-and-structure) 
 
-### Features 
-- index/home
-- food page
-- loyalty sign up section
-- booking form
-- booking page
+### [Features](#features-1) 
+- [Home Page](#home-page)
+- [Food & Drink](#food--drinks-page)
+- [Booking Page](#booking-page)
 
-### Languages & technologies used
-- programs used
-- websites and other sources
+### [Technologies](#technologies-1)
+- [Languages](#languages)
+- [Tools](#tools)
 
-### Testing
+### [Testing](#testing-1)
 
-- testing all the functions and links
-- user story testing 
-- lighthouse results, mobile and desktop
-- validator checks css and html
-- any bugs and fixes ive done
+- [User Story Testing](#user-story-testing)
+- [Links & Functions](#links-and-functions)
+- [Browser testing](#browser-testing)
+- [Lighthouse](#lighthouse)
+- [Improvments/Bug Fixes](#improvementsbug-fixes-1)
+-[Validator Testing](#validator-testing)
 
-### deployment
+### [Deployment](#deployment-1)
+
+### [Credits](#credits-1)
+- [Media & Content](#media--content)
+- [Code](#code)
+- [Acknowledgments](#acknowledgments)
 
 <br>
 
