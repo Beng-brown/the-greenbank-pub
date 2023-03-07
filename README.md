@@ -61,7 +61,7 @@ This website is for the Greenbank Pub- I have set out to create an easily naviga
 
 - To be imedietly obvious that this is a hospitality business- with the name and relevent pictures this is imedietly apparent.
 - To traffic more trade to the venue in the way of bookings. Offering a simple form to make a reservations/ask for more info.
--To be resonsive and able to view on all devices.
+-To be responsive and able to view on all devices.
 - simple navigation and access to food/drink menus. 
 - Contact details and where to find us as well as social media links.
 
@@ -76,7 +76,7 @@ This website is for the Greenbank Pub- I have set out to create an easily naviga
 
  - I would like access to the recent menus and opening times etc in case anything has chanaged.
  - I would like to be able to book a table quick and easily.
- - I would like to be able to be able to find easily contact information for any urther questions I may have.
+ - I would like to be able to be able to find easily contact information for any further questions I may have.
 
  ### Multiple Visitor Goals
 
@@ -178,6 +178,10 @@ This is followed by 4 responsive reviews and an iframe containing a google map o
 </details>
 <br>
 
+### Future Additional Features
+
+One main thing I would love to add in the future when I have further developed throughout this course would be a fully functional take away menu along with an interactive and updatable events/whats on listing page. 
+
 # Technologies 
 
 ## Languages
@@ -185,22 +189,53 @@ CSS & HTML
 
 ## Tools
 
-- Github
-- Gitpod
-- Google Dev Tools
-- Figma
-- Fontawsome
-- https://ianlunn.github.io/Hover/
-- Coolers
-- Pexels
-- Am I Responsive
-- Optimizilla
+- Github- Storing and hosting my code
+- Gitpod- Code Editor, create, edit and preview my code
+-  Git- Used for version control
+- Google Dev Tools- Used to test responsivness on different screens & layout etc
+- Figma- Used to create and develop my previews inc fonts, colors, images etc
+- Fontawsome- Sourced my icons, including the social media in footer
+- Hover.css- Database of CSS3 powered hover effects to be applied to links, buttons
+- Coolers- Used to create and pick my color scheme
+- Pexels= Stock images used throughout my project
+- Am I Responsive-  To create a preview of my website across different devices
+- W3C CSS Validation Service-  Online validator used to validate my CSS code
+- W3C Markup Validation Service- Online validator used to validate my HTML code
+- Color Contrast Acessibility Validator- Used to check the color scheme in regards to contrast of fonts and background colors. 
+
+<br>
+
+# Testing
+
+## User Story Testing 
+
+<br>
+
+| **First Time Visitor Goals** | **Solution** | **Outcome** |
+| ---| ---| ---|
+|Gain a sence of what the pub is like through attractive pictures of the place its self and its offerings | First thing you are drawn to on the home page is the logo, large hero image & "about" text giving a sence of what the pub and the page is about. | Achieved |
+| Easily visible and direct route to the online Menus and openning hours| Several ways, the nav bar on top of every page has a link named "food & Drink" providing an imediate route to the section. There is also another button placed just after the home page gallery named "check out our menus" | Achieved|
+| Opening hours and address easily identifed| The opening hours can be found near the bottom of both the home & food pages. The address and other contact details can be found in the footer on every page. There is also an Iframe containing google maps directions | Achieved|
+| Navigate to and easily book a table/function | On the nav bar present on each page there is a clearly marked "booking" link which will take you directly to our booking page containing the form, there is also another button placed on both the home and food pages "want to make a booking" to save scrolling back to the top and creating a better and more direct user experience | Achieved |
+
+<br>
+
+| **Multiple Time Visitor Goals** | **Solution** | **Outcome** |
+| ---| ---| ---|
+|Access to the recent menus and opening times etc in case anything has chanaged| On the nav bar present on each page there is a clearly marked "food & Drink" link which will take you directly to our booking page containing the menus, provding simple and efficent access to the information you want. | Achieved |
+|I would like to be able to book a table quick and easily| Similarly to the above the "booking" link is at the top of every page creating a direct link stright to the booking page. | Achieved |
+| Entised to Links of our social media, for mroe regular goings on & increase pub interaction/ following | On the footer of each page I have used font awsome icons to make clear and unmissable links to our socials. | Achieved |
+
+<br>
+
+## Summary
+
+Overal this website is easily navigated for both the first time and multiple visitors. With clear and obvious links taking the user directly to were they need to go. Or a slightly more meandering route for the first time visitor who would be looking for more information about the establishment. 
+
+The client goals were to make this stand out as a friendly hospitality venue, through the use and placement of images, logos and text this has been achieved. With several links and prompts throughout the page urging the user to continue and view our menus followed by the booking page. increasing traffic and hopefully bookings. 
+
+This site is responsive on all sized devices.
 
 
-
-
-& technologies used
-programs used
-websites and other sources
-
+## Browser testing
 
